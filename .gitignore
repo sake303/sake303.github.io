@@ -1,0 +1,7 @@
+.DS_Store
+.omo/
+.omx/
+.playwright-cli/
+output/
+DESIGN.md
+

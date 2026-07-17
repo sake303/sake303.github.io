@@ -1,0 +1,193 @@
+:root {
+  --background: #ffffff;
+  --foreground: #102a43;
+  --muted: #62748a;
+  --link: #173f6b;
+  --focus: #1d4ed8;
+  --measure: 33rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #071827;
+    --foreground: #edf4fb;
+    --muted: #9fb0c3;
+    --link: #b7d2f0;
+    --focus: #8bbcff;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+}
+
+html.js main section {
+  display: none;
+}
+
+html.js main section.is-active {
+  display: block;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  border-radius: 1px;
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 1;
+  padding: 0.35rem 0.55rem;
+  background: var(--background);
+  color: var(--foreground);
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.site-shell {
+  width: 100%;
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+}
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+.identity-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.name {
+  margin-right: 0.75rem;
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+.name:hover {
+  text-decoration: none;
+}
+
+nav a {
+  margin-right: 0.75rem;
+  color: var(--muted);
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+  color: var(--foreground);
+  text-decoration: none;
+}
+
+nav a[aria-current="page"] {
+  font-weight: 600;
+}
+
+main:focus {
+  outline: none;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.contact-links {
+  margin-top: 2.5rem;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.contact-links a {
+  color: var(--muted);
+}
+
+.contact-links a:hover {
+  color: var(--foreground);
+  text-decoration: none;
+}
+
+.contact-links > span[aria-hidden="true"] {
+  margin: 0 0.35rem;
+}
+
+.contact-group {
+  white-space: nowrap;
+}
+
+.contact-group > span[aria-hidden="true"] {
+  margin: 0 0.35rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+html:not(.js) .visually-hidden {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0 0 0.25rem;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  color: var(--muted);
+  font-size: 1rem;
+  font-weight: 600;
+}
