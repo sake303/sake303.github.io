@@ -1,20 +1,11 @@
 :root {
-  --background: #ffffff;
-  --foreground: #102a43;
-  --muted: #62748a;
-  --link: #173f6b;
-  --focus: #1d4ed8;
+  color-scheme: dark;
+  --background: #071827;
+  --foreground: #edf4fb;
+  --muted: #9fb0c3;
+  --link: #b7d2f0;
+  --focus: #8bbcff;
   --measure: 33rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #071827;
-    --foreground: #edf4fb;
-    --muted: #9fb0c3;
-    --link: #b7d2f0;
-    --focus: #8bbcff;
-  }
 }
 
 * {
