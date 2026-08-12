@@ -4,44 +4,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#071827">
-    <link rel="icon" href="data:,">
     <meta name="description" content="DLY는 스포츠 퍼포먼스와 RTP 팀이 다음 노출 전 판단에 필요한 맥락을 함께 검토하도록 돕는 초기 워크플로우 방향입니다.">
+    <link rel="icon" href="data:,">
     <title>DLY | 다음 RTP 노출 전, 판단 맥락을 한 곳에</title>
     <link rel="stylesheet" href="styles.css">
-    <style>.site-menu:focus{outline:none}</style>
+    <style>
+      body { word-break: keep-all; }
+      .mobile-break { display: none; }
+      @media (max-width: 600px) {
+        .mobile-break { display: block; }
+        .problem h2 { font-size: 38px; }
+        .stage h2 { font-size: 38px; }
+        footer h2 { font-size: 40px; }
+      }
+    </style>
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="DLY 소개 처음으로">DLY</a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
-        <span class="sr-only">메뉴 열기</span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
-      </button>
+    <header class="nav">
+      <a class="nav-logo" href="#top" aria-label="DLY 소개 처음으로">DLY</a>
+      <nav class="nav-links" aria-label="주요 탐색"><a href="#why">왜 지금</a><a href="#context">판단 맥락</a><a href="#demo">데모</a><a href="#stage">현재 단계</a></nav>
+      <a class="nav-cta" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">한국어 데모 열기</a>
+      <button class="nav-burger" type="button" aria-expanded="false" aria-controls="mobile-menu"><span class="sr-only">메뉴 열기</span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+      <nav class="mobile-menu" id="mobile-menu" aria-label="모바일 탐색" aria-hidden="true" inert><a href="#why">왜 지금</a><a href="#context">판단 맥락</a><a href="#demo">데모</a><a href="#stage">현재 단계</a><a href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">한국어 데모 열기 ↗</a></nav>
     </header>
-    <aside class="site-menu" id="site-menu" aria-label="페이지 탐색" aria-hidden="true" inert tabindex="-1">
-      <nav class="menu-links"><a href="#why">01 <span>왜 지금</span></a><a href="#demo">02 <span>데모에서 보는 것</span></a><a href="#stage">03 <span>현재 단계</span></a></nav>
-      <a class="menu-demo" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">한국어 RTP 데모 열기 <span>↗</span></a>
-    </aside>
     <main>
-
       <section class="hero" id="top" aria-labelledby="hero-title">
-        <p class="eyebrow">DLY · RTP DECISION CONTEXT · EARLY VALIDATION</p>
-        <div class="hero-grid"><div><h1 id="hero-title"><span>다음 RTP 노출 전,</span><span>판단에 필요한</span><span><em>맥락을</em> <b>한 곳에.</b></span></h1></div><div class="hero-side"><p>흩어진 노출·반응·스태프 맥락을 모아, 자격 있는 담당자가 <strong>progress / hold / modify</strong>를 검토할 수 있게 합니다.</p><a class="arrow-link" href="#why">DLY가 다루는 한 장면 <span>↓</span></a></div></div>
-        <div class="hero-rule"></div>
-        <p class="boundary">DLY는 진단, 의료적 클리어런스, 부상 위험 예측, RTP 권고를 하지 않습니다. 판단은 언제나 스태프에게 남습니다.</p>
+        <div class="hero-inner">
+          <div class="hero-content"><p class="eyebrow">DLY · RTP DECISION CONTEXT · EARLY VALIDATION</p><h1 id="hero-title">다음 RTP 노출 전,<br>판단에 필요한<br><em>맥락을 한 곳에.</em></h1><p class="hero-sub">흩어진 노출·반응·스태프 맥락을 모아, 자격 있는 담당자가 <strong>progress / hold / modify</strong>를 검토할 수 있게 합니다.</p><div class="hero-actions"><a class="button primary" href="#demo">한 장면 보기 <span>↓</span></a><p class="hero-note">진단이나 RTP 권고를 대신하지 않습니다.</p></div></div>
+          <a class="decision-board" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer" aria-label="한국어 RTP 데모 열기"><div class="board-top"><span>RTP REVIEW / 01</span><span>ILLUSTRATIVE</span></div><div class="board-name"><strong>다음 노출 검토</strong><span>한 명의 선수 · 한 번의 대화</span></div><div class="board-rows"><div><span>계획된 노출</span><b>하체 · 방향 전환</b></div><div><span>최근 반응</span><b>이전 세션 이후 메모</b></div><div><span>팀 맥락</span><b>이번 주 요구와 일정</b></div></div><div class="board-decision"><span>STAFF-OWNED</span><strong>PROGRESS <i>／</i> HOLD <i>／</i> MODIFY</strong></div><p>한국어 데모 열기 ↗</p></a>
+        </div>
       </section>
-
-      <section class="statement" id="why" aria-labelledby="why-title"><p class="section-index">01 / THE MOMENT</p><div class="statement-grid"><h2 id="why-title"><span>현장에는 정보가</span><span>없는 게 아니라,</span><span>판단 직전에</span><span class="accent">흩어져 있습니다.</span></h2><p>다음 노출을 진행할지, 보류할지, 조정할지. 그 짧은 대화 전까지 계획과 최근 반응, 팀의 요구는 서로 다른 시스템과 사람에게 나뉘어 있습니다.</p></div></section>
-
-      <section class="decision" aria-labelledby="decision-title"><p class="section-index">02 / ONE REVIEW</p><div class="decision-heading"><h2 id="decision-title"><span>한 사람의 상태를</span><span>점수로 결론내리는</span><span>대신 같은 장면을</span><span>함께 보게 합니다.</span></h2><p>작은 워크플로우에서 시작합니다. 다음 RTP 노출 전에 필요한 사실과 맥락을 모으고, 선택권은 제품 밖의 담당자에게 유지합니다.</p></div><div class="evidence-grid" role="list" aria-label="DLY가 모으는 판단 맥락"><article class="evidence-card" role="listitem"><p class="card-number">01</p><h3>계획된 노출</h3><p>다음 세션에서 무엇을 하려는지</p><span class="card-line"></span></article><article class="evidence-card" role="listitem"><p class="card-number">02</p><h3>최근 반응</h3><p>직전 노출 이후 무엇이 달라졌는지</p><span class="card-line"></span></article><article class="evidence-card" role="listitem"><p class="card-number">03</p><h3>팀 맥락</h3><p>이번 주 팀 요구가 무엇인지</p><span class="card-line"></span></article></div><div class="staff-decision"><p>STAFF-OWNED DECISION</p><div aria-label="스태프가 직접 검토하는 선택지"><span>PROGRESS</span><i>／</i><span>HOLD</span><i>／</i><span>MODIFY</span></div></div></section>
-
-      <section class="demo-section" id="demo" aria-labelledby="demo-title"><div class="demo-labels"><p class="section-index">03 / CURRENT DEMO</p><p>한국어 데모 · Illustrative scenario</p></div><div class="demo-grid"><h2 id="demo-title"><span>말이 아니라</span><span class="accent">한 장면으로</span><span>보여드립니다.</span></h2><div class="demo-copy"><p>현재 데모는 계획된 노출을 기준으로 최근 팀 노출과 이번 주 요구를 대조하고, 판단 근거를 열어 보도록 구성했습니다.</p><a class="primary-link" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">한국어 RTP 데모 열기 <span>↗</span></a></div></div><div class="console" aria-label="데모에 포함된 흐름"><div><span>01</span><strong>계획된 RTP 노출</strong><p>검토할 다음 세션</p></div><div><span>02</span><strong>맥락 검토</strong><p>노출 · 반응 · 팀 요구</p></div><div><span>03</span><strong>스태프 선택</strong><p>제품이 아닌 사람이 결정</p></div></div></section>
-
-      <section class="scope" aria-labelledby="scope-title"><p class="section-index">04 / THE BOUNDARY</p><div class="scope-grid"><h2 id="scope-title"><span>DLY는</span><span>결론을 대신하지</span><span>않습니다.</span></h2><div class="scope-list"><p>DOES <strong>검토 가능한 판단 맥락을 남깁니다.</strong></p><p>DOES NOT <strong>진단하거나 의료적 결론을 내리지 않습니다.</strong></p><p>DOES NOT <strong>부상 위험을 예측하거나 RTP를 권고하지 않습니다.</strong></p></div></div></section>
-
-      <section class="stage" id="stage" aria-labelledby="stage-title"><p class="section-index">05 / WHERE WE ARE</p><div class="stage-grid"><h2 id="stage-title"><span>지금은 하나의</span><span>진짜 판단 장면을</span><span class="accent stage-accent">검증하는 단계입니다.</span></h2><div><p>현재 DLY는 초기 워크플로우 검증 방향입니다. 실제 현장에서 누가 이 판단을 소유하는지, 지금은 어떻게 풀고 있는지, 어떤 출력이 유용한지를 좁혀가고 있습니다.</p><p class="quiet">아직 고객 성과, 유료 파일럿, 임상 효과를 주장하지 않습니다.</p></div></div></section>
-
-      <footer><p class="footer-kicker">DLY / ONE DECISION SCENE AT A TIME</p><h2><span>한국어 데모에서</span><span>그 한 장면을</span><span>직접 보세요.</span></h2><a class="footer-cta" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">DLY RTP 데모 열기 <span>↗</span></a><p class="footer-note">Illustrative decision-context demo. Staff retains the decision.</p></footer>
+      <section class="stat-bar" aria-label="DLY 핵심 원칙"><div class="stat-bar-inner"><div><b>한 장면</b><span>다음 RTP 노출 전</span></div><div><b>세 가지 맥락</b><span>노출 · 반응 · 팀 요구</span></div><div><b>스태프 소유</b><span>판단은 담당자에게</span></div><div><b>초기 검증</b><span>하나의 흐름부터</span></div></div></section>
+      <section class="problem" id="why" aria-labelledby="why-title"><div class="problem-inner"><div class="problem-left"><p class="eyebrow">THE MOMENT</p><h2 id="why-title">정보가 없는 게 아니라,<br><em>판단 직전에 흩어져 있습니다.</em></h2></div><div class="problem-right"><p>다음 노출을 진행할지, 보류할지, 조정할지. 짧은 대화 전까지 계획과 최근 반응, 팀의 요구는 서로 다른 시스템과 사람에게 나뉘어 있습니다.</p><p>그때 필요한 것은 더 많은 점수나 자동 결론이 아니라, 같은 장면을 보면서 판단할 수 있는 정리된 맥락입니다.</p><div class="problem-callout">DLY는 결론을 내리지 않고, <strong>검토의 출발점</strong>을 만듭니다.</div></div></div></section>
+      <section class="product" id="context" aria-labelledby="context-title"><div class="product-header"><p class="eyebrow">THE DECISION CONTEXT</p><h2 id="context-title">한 번의 검토에,<br><em>세 가지 맥락.</em></h2><p>다음 RTP 노출 전에 정말 필요한 사실을 한 자리에 놓고, 최종 선택은 제품 밖의 담당자가 유지합니다.</p></div><p class="section-note">// WHAT DLY BRINGS TO THE REVIEW</p><div class="features"><article><span>01</span><h3>계획된 노출</h3><p>다음 세션에서 무엇을 하려는지, 그리고 어느 정도의 노출을 검토하는지 봅니다.</p></article><article><span>02</span><h3>최근 반응</h3><p>직전 노출 뒤에 남은 반응과 메모를, 다음 판단 전에 다시 열어봅니다.</p></article><article><span>03</span><h3>팀 맥락</h3><p>이번 주 일정과 팀 요구를 함께 보며, 개인의 장면을 분리하지 않습니다.</p></article><article class="feature-wide"><span>BOUNDARY</span><div><h3>제품이 하지 않는 일도 분명히 둡니다.</h3><p>DLY는 진단, 의료적 클리어런스, 부상 위험 예측, RTP 권고를 하지 않습니다.</p></div><b>STAFF RETAINS THE DECISION</b></article></div></section>
+      <section class="showcase" id="demo" aria-labelledby="demo-title"><div class="showcase-inner"><div class="showcase-copy"><p class="eyebrow">CURRENT DEMO</p><h2 id="demo-title">말이 아니라,<br><em>한 장면으로.</em></h2><p>현재 한국어 데모는 계획된 노출을 기준으로 최근 팀 노출과 이번 주 요구를 대조하고, 판단 근거를 열어 보도록 구성했습니다.</p><a class="button primary" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">한국어 RTP 데모 열기 <span>↗</span></a></div><div class="demo-flow" aria-label="데모 흐름"><div><span>01</span><strong>다음 RTP 노출</strong><p>검토할 세션을 엽니다.</p></div><div><span>02</span><strong>맥락 대조</strong><p>노출 · 반응 · 팀 요구를 봅니다.</p></div><div><span>03</span><strong>스태프 선택</strong><p>사람이 progress / hold / modify를 검토합니다.</p></div></div></div></section>
+      <section class="stage" id="stage" aria-labelledby="stage-title"><p class="eyebrow">WHERE WE ARE</p><h2 id="stage-title">지금은 하나의 진짜<br><em>판단 장면을<span class="mobile-break"><br></span> 검증하는 단계입니다.</em></h2><p>현재 DLY는 초기 워크플로우 검증 방향입니다. 실제 현장에서 누가 이 판단을 소유하는지, 지금은 어떻게 풀고 있는지, 어떤 출력이 유용한지를 좁혀가고 있습니다.</p><p class="stage-note">아직 고객 성과, 유료 파일럿, 임상 효과를 주장하지 않습니다.</p></section>
     </main>
+    <footer><p>DLY / ONE DECISION SCENE AT A TIME</p><h2>한국어 데모에서<br>그 한 장면을<span class="mobile-break"><br></span> 직접 보세요.</h2><a href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">DLY RTP 데모 열기 ↗</a></footer>
     <script src="script.js"></script>
   </body>
 </html>
