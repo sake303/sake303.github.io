@@ -4,17 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#071827">
+    <link rel="icon" href="data:,">
     <meta name="description" content="DLY는 스포츠 퍼포먼스와 RTP 팀이 다음 노출 전 판단에 필요한 맥락을 함께 검토하도록 돕는 초기 워크플로우 방향입니다.">
     <title>DLY | 다음 RTP 노출 전, 판단 맥락을 한 곳에</title>
     <link rel="stylesheet" href="styles.css">
+    <style>.site-menu:focus{outline:none}</style>
   </head>
   <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="DLY 소개 처음으로">DLY</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+        <span class="sr-only">메뉴 열기</span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+    </header>
+    <aside class="site-menu" id="site-menu" aria-label="페이지 탐색" aria-hidden="true" inert tabindex="-1">
+      <nav class="menu-links"><a href="#why">01 <span>왜 지금</span></a><a href="#demo">02 <span>데모에서 보는 것</span></a><a href="#stage">03 <span>현재 단계</span></a></nav>
+      <a class="menu-demo" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">한국어 RTP 데모 열기 <span>↗</span></a>
+    </aside>
     <main>
-      <nav class="nav" aria-label="페이지 탐색">
-        <a class="brand" href="#top" aria-label="DLY 소개 처음으로">DLY</a>
-        <div class="nav-links"><a href="#why">왜 지금</a><a href="#demo">데모에서 보는 것</a><a href="#stage">현재 단계</a></div>
-        <a class="nav-demo" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">한국어 데모 ↗</a>
-      </nav>
 
       <section class="hero" id="top" aria-labelledby="hero-title">
         <p class="eyebrow">DLY · RTP DECISION CONTEXT · EARLY VALIDATION</p>
@@ -35,5 +42,6 @@
 
       <footer><p class="footer-kicker">DLY / ONE DECISION SCENE AT A TIME</p><h2><span>한국어 데모에서</span><span>그 한 장면을</span><span>직접 보세요.</span></h2><a class="footer-cta" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">DLY RTP 데모 열기 <span>↗</span></a><p class="footer-note">Illustrative decision-context demo. Staff retains the decision.</p></footer>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
