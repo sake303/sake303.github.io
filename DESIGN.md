@@ -2,7 +2,7 @@
 
 ## 0. Research Log
 
-- Existing-site extraction (2026-08-16): codified the homepage's existing quiet, dark editorial system before adding Signal Guide. The page keeps the site's small personal-note scale rather than introducing a product-marketing surface.
+- Existing-site extraction (2026-08-16): codified the homepage's existing quiet, dark editorial system before adding SG. The page keeps the site's small personal-note scale rather than introducing a product-marketing surface.
 
 ## 1. Design Direction
 
