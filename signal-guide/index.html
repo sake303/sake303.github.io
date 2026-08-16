@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#071827">
+    <title>Signal Guide — Seokhee Lee</title>
+    <meta
+      name="description"
+      content="A direct-use Oura and WHOOP comparison for an AI-assisted sleep and recovery workflow."
+    >
+    <meta property="og:title" content="Signal Guide — Seokhee Lee">
+    <meta
+      property="og:description"
+      content="A direct-use Oura and WHOOP comparison for an AI-assisted sleep and recovery workflow."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sake303.github.io/signal-guide/">
+    <link rel="canonical" href="https://sake303.github.io/signal-guide/">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <div class="site-shell">
+      <header>
+        <div class="identity-line">
+          <a class="name" href="/">Seokhee Lee</a>
+          <nav aria-label="Site navigation">
+            <a href="/">Home</a>
+            <a aria-current="page" href="/signal-guide/">Signal Guide</a>
+            <a href="/dly/">DLY</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="content" tabindex="-1">
+        <section aria-labelledby="signal-guide-title">
+          <p class="guide-kicker">Build in public / 2026</p>
+          <h1 id="signal-guide-title" class="guide-title">Signal Guide</h1>
+          <p class="guide-summary">
+            Oura vs WHOOP, inside an AI-assisted sleep and recovery workflow.
+          </p>
+          <p>
+            I am using both and keeping track of what changes the workflow: data export and API access,
+            freshness, HealthMes integration friction, price, comfort, and battery.
+          </p>
+          <p>
+            I mostly care about what happens after the wearable leaves my wrist. Can an agent get the data,
+            trust that it is current, and use it in the right place when the workflow runs?
+          </p>
+        </section>
+
+        <section aria-labelledby="current-note-title">
+          <h2 id="current-note-title" class="guide-kicker">Current note</h2>
+          <p>
+            The actual-sleep Calendar preview is back in HealthMes. The work started with a stale provider:
+            Hermes prepared two Calendar blocks, but there was no fallback write and the Calendar stayed unchanged.
+          </p>
+          <p>
+            That made the comparison more concrete. It is not enough for an agent to receive approval. The provider
+            needs to be live, and the result needs to show up where the workflow expects it.
+          </p>
+        </section>
+
+        <section aria-labelledby="what-im-comparing-title">
+          <h2 id="what-im-comparing-title" class="guide-kicker">What I am comparing</h2>
+          <ul class="guide-list">
+            <li>Data export and API access</li>
+            <li>Freshness: when the data is actually available to use</li>
+            <li>HealthMes integration friction</li>
+            <li>Price, comfort, and battery for living with the device</li>
+          </ul>
+          <p>
+            App UX only matters here when setup, consent, export, or recovery changes the agent workflow.
+          </p>
+        </section>
+
+        <section aria-labelledby="evidence-title">
+          <h2 id="evidence-title" class="guide-kicker">Build log</h2>
+          <p>
+            <a href="https://github.com/NomaDamas/healthmes-agent/pull/171">HealthMes PR #171</a>
+            restores the preview-only path for actual-sleep Calendar updates. There is still no Calendar write.
+          </p>
+          <p>
+            Follow the public notes on
+            <a href="https://x.com/Sakee_33/status/2088963408834289913">X</a>.
+          </p>
+          <p class="guide-status">
+            Status: comparison in progress. This page will stay as the public record while the direct-use notes come in.
+          </p>
+        </section>
+      </main>
+
+      <footer class="contact-links" aria-label="Contact and profile links">
+        <a href="/">Seokhee Lee</a><span aria-hidden="true">/</span>
+        <a href="https://github.com/sake303">GitHub</a><span aria-hidden="true">/</span>
+        <a href="https://x.com/Sakee_33">X</a>
+      </footer>
+    </div>
+  </body>
+</html>

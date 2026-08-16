@@ -123,6 +123,42 @@ section {
   margin-bottom: 2rem;
 }
 
+.guide-kicker {
+  margin-bottom: 0.5rem;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.guide-title {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.guide-summary {
+  color: var(--foreground);
+  font-size: 1.125rem;
+}
+
+.guide-list {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+}
+
+.guide-list li {
+  margin-bottom: 0.5rem;
+}
+
+.guide-status {
+  color: var(--muted);
+}
+
 p {
   margin: 0 0 1rem;
 }
