@@ -57,12 +57,14 @@
         <section aria-labelledby="current-note-title">
           <h2 id="current-note-title" class="guide-kicker">Current note</h2>
           <p>
-            HealthMes has the actual-sleep Calendar preview again. Hermes had prepared two Calendar blocks,
-            but the HealthMes provider was stale. There was no fallback write, so the Calendar stayed unchanged.
+            After a morning ride, I asked my health agent for a recovery plan. It fell back safely. HealthMes itself
+            was up, but Hermes had lost its HTTP MCP client after a self-update, so it could not reach the working
+            HealthMes MCP server.
           </p>
           <p>
-            That made the comparison less abstract. Approval was not the issue. Before an agent writes, the provider
-            has to be live. Afterwards, I need to be able to read the result back where the workflow expects it.
+            That is not an Oura or WHOOP verdict. It is a workflow boundary: a healthy data provider still has to
+            make it through the agent runtime before the agent can use it. I reproduced the Hermes side and added
+            the details upstream.
           </p>
         </section>
 
@@ -86,8 +88,10 @@
             brought back the preview-only path for actual-sleep Calendar updates. It still does not write to the Calendar.
           </p>
           <p>
-            The public notes are on
-            <a href="https://x.com/Sakee_33/status/2088963408834289913">X</a>.
+            On August 17, I reproduced an HTTP MCP runtime gap after a Hermes self-update and added the evidence to
+            <a href="https://github.com/NousResearch/hermes-agent/issues/31005#issuecomment-5311900594">the upstream issue</a>.
+            The public build note is on
+            <a href="https://x.com/Sakee_33/status/2089218792266387488">X</a>.
           </p>
           <p class="guide-status">
             Status: I'm still using both. I'll keep adding notes here as I go.
