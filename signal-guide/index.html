@@ -57,14 +57,13 @@
         <section aria-labelledby="current-note-title">
           <h2 id="current-note-title" class="guide-kicker">Current note</h2>
           <p>
-            After a morning ride, I asked my health agent for a recovery plan. It fell back safely. HealthMes itself
-            was up, but Hermes had lost its HTTP MCP client after a self-update, so it could not reach the working
-            HealthMes MCP server.
+            On August 20, I ran that same question through an actual WHOOP path: Codex to HealthMes to Hermes to
+            Telegram. It returned a recovery package using WHOOP Recovery and the Cycle's current day strain. When
+            the input was stale or uncertain, it held off.
           </p>
           <p>
-            That is not an Oura or WHOOP verdict. It is a workflow boundary: a healthy data provider still has to
-            make it through the agent runtime before the agent can use it. I reproduced the Hermes side and added
-            the details upstream.
+            That is one direct-use result, not an Oura or WHOOP verdict. The earlier Hermes runtime gap still matters:
+            a healthy data provider has to make it through the agent runtime before the agent can use it.
           </p>
         </section>
 
@@ -92,6 +91,16 @@
             <a href="https://github.com/NousResearch/hermes-agent/issues/31005#issuecomment-5311900594">the upstream issue</a>.
             The public build note is on
             <a href="https://x.com/Sakee_33/status/2089218792266387488">X</a>.
+          </p>
+          <p>
+            The working WHOOP path is in <a href="https://github.com/NomaDamas/healthmes-agent/pull/157">HealthMes PR #157</a>,
+            which is open for review. The public receipts are on
+            <a href="https://x.com/Sakee_33/status/2090440814828937499">the first WHOOP dogfood note</a> and
+            <a href="https://x.com/Sakee_33/status/2090443209139003673">the Signal Guide follow-up</a>.
+          </p>
+          <p>
+            I am treating this as a dogfooding receipt in my Product to Build to Dogfooding to Public loop:
+            evidence of one workflow, not a market or purchase recommendation.
           </p>
           <p class="guide-status">
             Status: I'm still using both. I'll keep adding notes here as I go.
