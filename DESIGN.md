@@ -3,6 +3,7 @@
 ## 0. Research Log
 
 - Existing-site extraction (2026-08-16): codified the homepage's existing quiet, dark editorial system before adding SG. The page keeps the site's small personal-note scale rather than introducing a product-marketing surface.
+- Signal Guide funnel (2026-08-21): added one bordered conversion hinge inside the field note. The waitlist and checkout actions stay typographic and compact; no card grid or SaaS-style chrome was introduced.
 
 ## 1. Design Direction
 
@@ -51,6 +52,12 @@ The site is a dark field note: spare, calm, and personal. Long-form serif text c
 - **Structure:** mono, uppercase inline links separated by slashes.
 - **States:** muted by default; foreground on hover; visible focus outline.
 - **Accessibility:** native links with descriptive labels.
+
+### Guide offer
+
+- **Structure:** a bordered pause in the reading flow with the early-access price, waitlist action, checkout state, privacy note, and an in-page link to delivery and refund terms.
+- **States:** live actions invert on hover; any future unavailable checkout remains muted and is exposed as disabled to assistive technology.
+- **Accessibility:** action targets are at least 44px tall, use shared keyboard focus, explain where the waitlist address goes, and expose purchase terms before checkout.
 
 ## 6. Motion & Interaction
 

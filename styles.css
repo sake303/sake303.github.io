@@ -136,9 +136,9 @@ section {
 
 .guide-title {
   margin: 0 0 1rem;
-  font-size: 1.5rem;
+  font-size: clamp(1.75rem, 7vw, 2.5rem);
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.15;
 }
 
 .guide-summary {
@@ -157,6 +157,68 @@ section {
 
 .guide-status {
   color: var(--muted);
+}
+
+.guide-offer {
+  margin: 2rem 0;
+  padding: 1.25rem 0;
+  border-block: 1px solid color-mix(in srgb, var(--muted) 42%, transparent);
+}
+
+.guide-price {
+  margin-bottom: 1.25rem;
+  font-size: 1.125rem;
+}
+
+.guide-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.guide-action {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--link);
+  color: var(--foreground);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.guide-action:not(.is-disabled):hover {
+  background: var(--foreground);
+  color: var(--background);
+  text-decoration: none;
+}
+
+.guide-action.is-disabled {
+  border-color: color-mix(in srgb, var(--muted) 42%, transparent);
+  color: var(--muted);
+  cursor: not-allowed;
+}
+
+.guide-fine-print {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+@media (max-width: 27rem) {
+  .guide-actions {
+    display: grid;
+  }
+
+  .guide-action {
+    width: 100%;
+  }
 }
 
 p {
