@@ -132,6 +132,12 @@
             and <a href="https://x.com/Sakee_33/status/2090443209139003673">the Signal Guide follow-up</a> on X.
           </p>
           <p>
+            A separate <a href="https://github.com/NomaDamas/healthmes-agent/pull/138">code review</a> caught a
+            source-id edge case: <code>manual</code> and <code>Manual</code> could create two records for the same
+            source. The casing fix is simple. The useful question is whether this stays a narrow WHOOP retrieval flow,
+            or grows into a general wellness platform.
+          </p>
+          <p>
             This was one dogfood run in my Product to Build to Dogfooding to Public loop. It worked that day. The PR
             still has open review comments about identity, revisions, time boundaries, and provenance, so I'm
             treating this as a build note, not proof that one device wins.
