@@ -63,7 +63,7 @@ The site is a dark field note: spare, calm, and personal. Long-form serif text c
 
 - **Structure:** a compact pair of native buttons below the identity line; each reveals one complete language version of the same field note.
 - **States:** muted inactive language; foreground text with a one-pixel underline for the active language; hover and keyboard focus use the shared link and focus affordances.
-- **Accessibility:** labels identify the language in its own script; each control has a 44px target; the active state uses `aria-pressed`; JavaScript-off rendering leaves both language versions readable.
+- **Accessibility:** labels identify the language in its own script; each control has a 44px target; the active state uses `aria-pressed`; Korean prose wraps at word boundaries; JavaScript-off rendering leaves both language versions readable.
 
 ## 6. Motion & Interaction
 
