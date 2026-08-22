@@ -59,11 +59,18 @@ The site is a dark field note: spare, calm, and personal. Long-form serif text c
 - **States:** live actions invert on hover; any future unavailable checkout remains muted and is exposed as disabled to assistive technology.
 - **Accessibility:** the purchase target is at least 44px tall, uses shared keyboard focus, and exposes purchase terms before checkout.
 
+### Language switcher
+
+- **Structure:** a compact pair of native buttons below the identity line; each reveals one complete language version of the same field note.
+- **States:** muted inactive language; foreground text with a one-pixel underline for the active language; hover and keyboard focus use the shared link and focus affordances.
+- **Accessibility:** labels identify the language in its own script; each control has a 44px target; the active state uses `aria-pressed`; JavaScript-off rendering leaves both language versions readable.
+
 ## 6. Motion & Interaction
 
 - No decorative motion. Homepage section selection uses an immediate hash-based state change.
 - Hover only changes the affordance of a real link.
 - Keyboard focus uses the shared focus token. The site honors the browser's reduced-motion preference by avoiding nonessential animation.
+- The language switch is immediate. It has no animated panel transition; the selected language can be shared with `?lang=ko`.
 
 ## 7. Depth & Surface
 

@@ -86,6 +86,44 @@ header {
   align-items: baseline;
 }
 
+.language-switcher {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.language-switcher button {
+  -webkit-appearance: none;
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: 600 0.6875rem / 1.6 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.08em;
+}
+
+.language-switcher button:hover,
+.language-switcher button[aria-pressed="true"] {
+  color: var(--foreground);
+}
+
+.language-switcher button[aria-pressed="true"] {
+  border-bottom-color: currentColor;
+}
+
+html.language-ready[data-language="en"] .language-content[lang="ko"],
+html.language-ready[data-language="ko"] .language-content[lang="en"] {
+  display: none;
+}
+
 .name {
   margin-right: 0.75rem;
   color: var(--foreground);
@@ -139,6 +177,7 @@ section {
   font-size: clamp(1.75rem, 7vw, 2.5rem);
   font-weight: 600;
   line-height: 1.15;
+  word-break: keep-all;
 }
 
 .guide-summary {
