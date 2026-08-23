@@ -8,7 +8,7 @@
   };
   const titles = {
     en: "SG — Seokhee Lee",
-    ko: "시그널 가이드 — Seokhee Lee",
+    ko: "SG — Seokhee Lee",
   };
 
   function setLanguage(language, replaceUrl) {
