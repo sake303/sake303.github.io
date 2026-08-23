@@ -126,6 +126,7 @@ html.language-ready[data-language="ko"] .language-content[lang="en"] {
 
 .language-content[lang="ko"] {
   word-break: keep-all;
+  overflow-wrap: anywhere;
 }
 
 .name {
