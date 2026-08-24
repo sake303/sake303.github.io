@@ -129,6 +129,10 @@ html.language-ready[data-language="ko"] .language-content[lang="en"] {
   overflow-wrap: anywhere;
 }
 
+.keep-together {
+  white-space: nowrap;
+}
+
 .name {
   margin-right: 0.75rem;
   color: var(--foreground);
