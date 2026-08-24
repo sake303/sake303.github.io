@@ -7,11 +7,11 @@ const defaultLanguage = "ko";
 const supportedLanguages = new Set(["ko", "en"]);
 const languageMetadata = {
   ko: {
-    title: "Seokhee Lee | 만드는 사람",
+    title: "Seokhee Lee",
     description: "Seokhee Lee는 사람들이 더 나은 결정을 내릴 수 있도록 무언가를 만드는 사람입니다."
   },
   en: {
-    title: "Seokhee Lee | Builder",
+    title: "Seokhee Lee",
     description: "Seokhee Lee is a builder who makes things that help people make better decisions."
   }
 };
