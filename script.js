@@ -3,7 +3,7 @@ const navigationLinks = Array.from(document.querySelectorAll("nav a"));
 const languageButtons = Array.from(document.querySelectorAll("[data-language]"));
 const languageSwitcher = document.querySelector(".language-switcher");
 const defaultSection = "now";
-const defaultLanguage = "ko";
+const defaultLanguage = "en";
 const supportedLanguages = new Set(["ko", "en"]);
 const languageMetadata = {
   ko: {
