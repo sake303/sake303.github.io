@@ -181,6 +181,10 @@ section {
   text-transform: uppercase;
 }
 
+.guide-version-title {
+  text-transform: none;
+}
+
 .guide-title {
   margin: 0 0 1rem;
   font-size: clamp(1.75rem, 7vw, 2.5rem);
