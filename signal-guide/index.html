@@ -110,9 +110,9 @@
             comments on identification, revision history, time boundaries, and sources.
           </p>
           <p>
-            I started Open Wearables locally and tried to connect Oura sleep data. After Oura consent, the callback
-            failed with a <code>user_connection.user_id</code> foreign-key error and rolled back the connection and
-            initial sync. I logged the repro in <a href="https://github.com/the-momentum/open-wearables/issues/1493">Open Wearables issue #1493</a>
+            I ran Open Wearables locally and tried to connect Oura sleep data. After Oura consent, the callback hit a
+            <code>user_connection.user_id</code> foreign-key error. The connection and initial sync were rolled back.
+            I logged the repro in <a href="https://github.com/the-momentum/open-wearables/issues/1493">Open Wearables issue #1493</a>
             and posted the <a href="https://x.com/Sakee_33/status/2092937650827321348">build-in-public note</a> on X.
             I’ll retry actual sleep-data retrieval once the issue is resolved.
           </p>
