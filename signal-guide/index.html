@@ -183,6 +183,25 @@
           <section aria-labelledby="evidence-title-ko">
             <h2 id="evidence-title-ko" class="guide-kicker">빌드 로그</h2>
             <p>
+              WHOOP 흐름은 <a href="https://github.com/NomaDamas/healthmes-agent/pull/157">HealthMes PR #157</a>에 있고,
+              아직 리뷰 중입니다. <a href="https://x.com/Sakee_33/status/2090440814828937499">dogfood run</a>과
+              <a href="https://x.com/Sakee_33/status/2090443209139003673">Signal Guide 후속 기록</a>은 X에 남겨 두었습니다.
+            </p>
+            <p>
+              <a href="https://github.com/NomaDamas/healthmes-agent/pull/138">코드 리뷰</a>에서 작은 엣지 케이스를 찾았습니다.
+              <code>manual</code>과 <code>Manual</code>이 같은 source의 레코드를 두 개 만들 수 있었습니다.
+            </p>
+            <p>
+              수정 자체는 작았습니다. 이 작업을 하며 제가 지금 무엇을 만드는지 다시 봤습니다. 지금은 WHOOP 데이터를
+              좁게 가져오는 흐름을 만들고 있습니다. 더 넓은 웰니스 플랫폼은 다른 프로젝트고, 아직 그것을 할 근거가 없습니다.
+            </p>
+            <p>
+              이 기록은 제품을 만들고 직접 써 본 뒤 공개하는 과정에서 남겼습니다. 그날은 작동했습니다.
+              두 번째 코드 리뷰인 <a href="https://github.com/NomaDamas/healthmes-agent/pull/199">PR #199</a>에는 식별,
+              수정 이력, 시간 경계, 출처에 대한 리뷰 코멘트가 남아 있습니다. 그래서 이 기록을 어떤 기기가 이겼다는
+              증거로 보지 않고, 빌드 노트로 남겨 둡니다.
+            </p>
+            <p>
               Open Wearables를 로컬에서 띄워 Oura 수면 데이터 연결을 시도했습니다. Oura 동의 뒤 callback에서
               <code>user_connection.user_id</code> foreign-key 오류가 나 연결과 첫 sync가 롤백됐습니다. 재현 조건은
               <a href="https://github.com/the-momentum/open-wearables/issues/1493">Open Wearables issue #1493</a>에 남겼고,
