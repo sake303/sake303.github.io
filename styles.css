@@ -197,6 +197,10 @@ section {
   white-space: nowrap;
 }
 
+.guide-keep-together {
+  white-space: nowrap;
+}
+
 .guide-summary {
   color: var(--foreground);
   font-size: 1.125rem;

@@ -111,11 +111,13 @@
             comments on identification, revision history, time boundaries, and sources.
           </p>
           <p>
-            I ran Open Wearables locally and tried to connect Oura sleep data. After Oura consent, the callback hit a
-            <code>user_connection.user_id</code> foreign-key error. The connection and initial sync were rolled back.
-            I logged the repro in <a href="https://github.com/the-momentum/open-wearables/issues/1493">Open Wearables issue #1493</a>
-            and posted the <a href="https://x.com/Sakee_33/status/2092937650827321348">build-in-public note</a> on X.
-            I’ll retry actual sleep-data retrieval once the issue is resolved.
+            On August 30, I reran the Oura flow in one clean runtime: one database, one Redis namespace, one API
+            process, and a temporary public HTTPS callback. Consent completed, an active connection was created, and
+            the foreign-key error did not reproduce, so I closed <a href="https://github.com/the-momentum/open-wearables/issues/1493">Open Wearables issue #1493</a>
+            as not reproducible in a clean, single-runtime setup. The earlier runtime/configuration mismatch is the
+            most likely explanation. A separate code review left one useful boundary: a stale or
+            invalid user ID can reach the connection-save step, where saving may fail. I wrote that down in
+            the <a href="https://x.com/Sakee_33/status/2093921489607377070">build-in-public note</a> on X.
           </p>
           </section>
 
@@ -187,7 +189,7 @@
             <p>
               WHOOP 흐름은 <a href="https://github.com/NomaDamas/healthmes-agent/pull/157">HealthMes PR #157</a>에 있고,
               아직 리뷰 중입니다. <a href="https://x.com/Sakee_33/status/2090440814828937499">dogfood run</a>과
-              <a href="https://x.com/Sakee_33/status/2090443209139003673">Wearable-to-Agent Kit 후속 기록</a>은 X에 남겨 두었습니다.
+              <a class="guide-keep-together" href="https://x.com/Sakee_33/status/2090443209139003673">Kit 후속 기록</a>은 X에 남겼습니다.
             </p>
             <p>
               <a href="https://github.com/NomaDamas/healthmes-agent/pull/138">코드 리뷰</a>에서 작은 엣지 케이스를 찾았습니다.
@@ -195,14 +197,16 @@
             </p>
             <p>
               두 번째 코드 리뷰인 <a href="https://github.com/NomaDamas/healthmes-agent/pull/199">PR #199</a>에는 식별,
-              수정 이력, 시간 경계, 출처에 대한 리뷰 코멘트가 남아 있습니다.
+              <span class="guide-title-phrase">수정 이력</span>, 시간 경계, 출처에 대한 리뷰 코멘트가 남아 있습니다.
             </p>
             <p>
-              Open Wearables를 로컬에서 띄워 Oura 수면 데이터 연결을 시도했습니다. Oura 동의 뒤 callback에서
-              <code>user_connection.user_id</code> foreign-key 오류가 나 연결과 첫 sync가 롤백됐습니다. 재현 조건은
-              <a href="https://github.com/the-momentum/open-wearables/issues/1493">Open Wearables issue #1493</a>에 남겼고,
-              그날의 <a href="https://x.com/Sakee_33/status/2092937650827321348">build-in-public 기록</a>도 X에 공개했습니다.
-              실제 sleep data 조회는 이 이슈가 해결된 뒤 다시 시도합니다.
+              8월 30일, Oura 흐름을 하나의 깨끗한 실행 환경에서 다시 돌렸습니다. 하나의 DB, 하나의 Redis namespace,
+              하나의 API 프로세스와 임시 공개 HTTPS callback으로 동의가 완료됐고, 활성 연결이 생성됐으며 foreign-key
+              오류는 재현되지 않았습니다. 그래서 <a class="guide-keep-together" href="https://github.com/the-momentum/open-wearables/issues/1493">이슈 #1493</a>을
+              깨끗한 단일 실행 환경에서 <span class="guide-keep-together">재현되지 않은 이슈</span>로 닫았습니다. 이전 runtime/configuration 혼선이 가장 유력한
+              설명입니다. 별도의 코드 리뷰에서는 오래되었거나 잘못된 <span class="guide-keep-together">user ID가</span>
+              연결 저장 단계까지 도달해 저장 시 실패할 수 있다는 경계를 확인했고, 그 배움을
+              <a href="https://x.com/Sakee_33/status/2093921489607377070">build-in-public 기록</a>에 남겼습니다.
             </p>
           </section>
 
