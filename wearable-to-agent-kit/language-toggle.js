@@ -7,8 +7,8 @@
     ko: "Oura와 WHOOP을 같은 수면·회복 에이전트에 연결해 보고, 무엇이 덜 번거로운지 기록합니다.",
   };
   const titles = {
-    en: "SG — Seokhee Lee",
-    ko: "SG — Seokhee Lee",
+    en: "Wearable-to-Agent Kit — Seokhee Lee",
+    ko: "Wearable-to-Agent Kit — Seokhee Lee",
   };
 
   function setLanguage(language, replaceUrl) {
