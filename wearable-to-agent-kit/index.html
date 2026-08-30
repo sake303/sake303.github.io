@@ -111,13 +111,11 @@
             comments on identification, revision history, time boundaries, and sources.
           </p>
           <p>
-            On August 30, I reran the Oura flow in one clean runtime: one database, one Redis namespace, one API
-            process, and a temporary public HTTPS callback. Consent completed, an active connection was created, and
-            the foreign-key error did not reproduce, so I closed <a href="https://github.com/the-momentum/open-wearables/issues/1493">Open Wearables issue #1493</a>
-            as not reproducible in a clean, single-runtime setup. The earlier runtime/configuration mismatch is the
-            most likely explanation. A separate code review left one useful boundary: a stale or
-            invalid user ID can reach the connection-save step, where saving may fail. I wrote that down in
-            the <a href="https://x.com/Sakee_33/status/2093921489607377070">build-in-public note</a> on X.
+            The Oura OAuth error did not reproduce in an isolated, single-runtime setup, so I closed
+            <a href="https://github.com/the-momentum/open-wearables/issues/1493">issues #1493</a>.
+            A local runtime/configuration mix-up is the most likely cause. In the code review, I found that a stale or
+            invalid user ID can fail at the connection-save step. I wrote down what I learned in
+            <a href="https://x.com/Sakee_33/status/2093921489607377070">build in public</a>.
           </p>
           </section>
 
