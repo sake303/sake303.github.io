@@ -200,13 +200,11 @@
               <span class="guide-title-phrase">수정 이력</span>, 시간 경계, 출처에 대한 리뷰 코멘트가 남아 있습니다.
             </p>
             <p>
-              8월 30일, Oura 흐름을 하나의 깨끗한 실행 환경에서 다시 돌렸습니다. 하나의 DB, 하나의 Redis namespace,
-              하나의 API 프로세스와 임시 공개 HTTPS callback으로 동의가 완료됐고, 활성 연결이 생성됐으며 foreign-key
-              오류는 재현되지 않았습니다. 그래서 <a class="guide-keep-together" href="https://github.com/the-momentum/open-wearables/issues/1493">이슈 #1493</a>을
-              깨끗한 단일 실행 환경에서 <span class="guide-keep-together">재현되지 않은 이슈</span>로 닫았습니다. 이전 runtime/configuration 혼선이 가장 유력한
-              설명입니다. 별도의 코드 리뷰에서는 오래되었거나 잘못된 <span class="guide-keep-together">user ID가</span>
-              연결 저장 단계까지 도달해 저장 시 실패할 수 있다는 경계를 확인했고, 그 배움을
-              <a href="https://x.com/Sakee_33/status/2093921489607377070">build-in-public 기록</a>에 남겼습니다.
+              Oura OAuth 오류는 분리된 단일 실행 환경에서 재현되지 않아
+              <a class="guide-keep-together" href="https://github.com/the-momentum/open-wearables/issues/1493">issues #1493</a>을 닫았습니다.
+              이전 local runtime/configuration 혼선이 가장 유력한 원인이었습니다. 코드 리뷰에서는 오래되었거나 잘못된
+              <span class="guide-keep-together">user ID가</span> 연결 저장 단계에서 실패할 수 있음을 확인했고, 그 배움은
+              <a class="guide-keep-together" href="https://x.com/Sakee_33/status/2093921489607377070">build in public</a>으로 남겼습니다.
             </p>
           </section>
 
