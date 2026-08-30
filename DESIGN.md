@@ -37,7 +37,7 @@ The site is a dark field note: spare, calm, and personal. Long-form serif text c
 
 ### Identity line
 
-- **Structure:** name link plus simple navigation.
+- **Structure:** name link plus the personal-note navigation only: Now, Before, and Taste. Product destinations remain inline links in the note rather than top-level tabs.
 - **States:** muted default nav; foreground on hover/current; visible blue focus outline.
 - **Accessibility:** semantic `nav`, current page via `aria-current`.
 
