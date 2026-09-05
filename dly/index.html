@@ -8,20 +8,6 @@
     <link rel="icon" href="data:,">
     <title>DLY | RTP 의사결정을 위한 맥락</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-      .demo-section .eyebrow { color:#b7ccff; }
-      .demo-preview { min-height:380px; padding:34px; color:#eaf1ff; background:linear-gradient(135deg,#0b213e,#07182d); }
-      .preview-kicker { color:#85aaff; font-size:11px; font-weight:800; letter-spacing:.04em; }
-      .demo-preview h3 { margin:24px 0 12px; color:#fff; font:700 clamp(25px,3vw,38px)/1.12 var(--display); letter-spacing:-.05em; }
-      .demo-preview p { margin:0; color:#aabbd5; font-size:14px; }
-      .preview-tabs { display:flex; gap:20px; margin-top:28px; padding-bottom:10px; border-bottom:1px solid #314c70; color:#90a4c2; font-size:12px; }
-      .preview-tabs .active { color:#fff; font-weight:700; }
-      .preview-graph { display:flex; align-items:end; gap:10px; height:95px; margin:20px 0 16px; padding:0 0 22px; border-bottom:1px solid #314c70; }
-      .preview-graph i { width:14%; background:linear-gradient(#4b83ff,#2254bc); border-radius:2px 2px 0 0; }.preview-graph i:nth-child(1){height:33%}.preview-graph i:nth-child(2){height:61%}.preview-graph i:nth-child(3){height:49%}.preview-graph i:nth-child(4){height:77%}.preview-graph i:nth-child(5){height:43%}
-      .preview-graph b { align-self:end; margin-left:auto; color:#90a4c2; font-size:11px; font-weight:500; }
-      .preview-footer { display:flex; justify-content:space-between; gap:16px; color:#96a8c1; font-size:12px; }.preview-footer strong { color:#fff; }
-      @media (max-width:560px) { .demo-preview { min-height:280px; padding:24px; }.demo-preview h3 { margin-top:18px; font-size:28px; }.preview-tabs { margin-top:20px; gap:12px; }.preview-graph { height:65px; margin-top:15px; }.preview-graph b { display:none; } }
-    </style>
   </head>
   <body>
     <header class="nav">
@@ -29,14 +15,11 @@
       <nav class="nav-links" aria-label="주요 탐색">
         <a href="#about">서비스 소개</a>
         <a href="#how">어떻게 작동하나요</a>
-        <a href="#demo">한국어 데모</a>
         <a href="#stage">현재 단계</a>
       </nav>
-      <a class="nav-cta" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">데모 보기 <span>↗</span></a>
       <button class="nav-burger" type="button" aria-expanded="false" aria-controls="mobile-menu"><span class="sr-only">메뉴 열기</span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
       <nav class="mobile-menu" id="mobile-menu" aria-label="모바일 탐색" aria-hidden="true" inert>
-        <a href="#about">서비스 소개</a><a href="#how">어떻게 작동하나요</a><a href="#demo">한국어 데모</a><a href="#stage">현재 단계</a>
-        <a href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">한국어 데모 보기 ↗</a>
+        <a href="#about">서비스 소개</a><a href="#how">어떻게 작동하나요</a><a href="#stage">현재 단계</a>
       </nav>
     </header>
 
@@ -47,7 +30,7 @@
             <p class="eyebrow">DLY / RTP DECISION WORKFLOW</p>
             <h1 id="hero-title">RTP 판단에 필요한<br><strong>맥락을 한 화면에.</strong></h1>
             <p class="lead">DLY는 스포츠 퍼포먼스와 RTP 팀이 다음 노출을 논의하기 전, 계획·최근 반응·팀 요구를 함께 검토하도록 돕는 초기 워크플로우입니다.</p>
-            <div class="hero-actions"><a class="button primary" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">한국어 데모 보기 <span>↗</span></a><a class="button ghost" href="#about">서비스 소개 보기 <span>↓</span></a></div>
+            <div class="hero-actions"><a class="button ghost" href="#about">서비스 소개 보기 <span>↓</span></a></div>
             <p class="fine-print">DLY는 진단, 의료적 클리어런스 또는 RTP 권고를 제공하지 않습니다.</p>
           </div>
           <div class="product-shot" aria-label="DLY 검토 화면 예시">
@@ -60,12 +43,12 @@
               <div class="context-row"><span>팀 요구</span><strong>이번 주 일정과 역할</strong></div>
               <div class="screen-decision"><span>검토 후 선택</span><b>Progress&nbsp;&nbsp; / &nbsp;&nbsp;Hold&nbsp;&nbsp; / &nbsp;&nbsp;Modify</b></div>
             </div>
-            <p>실제 한국어 데모에서 전체 흐름을 확인할 수 있습니다.</p>
+            <p>초기 워크플로우에서 함께 검토할 맥락을 보여 줍니다.</p>
           </div>
         </div>
       </section>
 
-      <section class="signal-strip" aria-label="DLY 핵심 정보"><div class="shell"><div><b>한 화면</b><span>다음 RTP 노출 전 검토</span></div><div><b>세 가지 맥락</b><span>계획 · 반응 · 팀 요구</span></div><div><b>스태프가 결정</b><span>판단 권한은 담당자에게</span></div><div><b>한국어 데모</b><span>지금 직접 확인 가능</span></div></div></section>
+      <section class="signal-strip" aria-label="DLY 핵심 정보"><div class="shell"><div><b>한 화면</b><span>다음 RTP 노출 전 검토</span></div><div><b>세 가지 맥락</b><span>계획 · 반응 · 팀 요구</span></div><div><b>스태프가 결정</b><span>판단 권한은 담당자에게</span></div><div><b>초기 워크플로우</b><span>현장에서 검증할 범위를 좁혀 가는 단계</span></div></div></section>
 
       <section class="section intro" id="about" aria-labelledby="about-title"><div class="shell two-column"><div><p class="eyebrow">WHAT DLY IS</p><h2 id="about-title">한 번의 판단을 위해<br>흩어진 정보를 정리합니다.</h2></div><div class="body-copy"><p class="large">다음 RTP 노출을 진행할지, 보류할지, 조정할지. 결정 자체는 담당자의 몫이지만, 그 직전의 정보는 흔히 여러 사람과 시스템에 나뉘어 있습니다.</p><p>DLY는 그 판단 장면에 필요한 맥락을 먼저 모읍니다. 더 많은 점수나 자동 결론을 추가하는 대신, 팀이 같은 사실을 보며 대화할 수 있는 출발점을 만드는 데 집중합니다.</p></div></div></section>
 
@@ -73,12 +56,10 @@
 
       <section class="section workflow" id="how" aria-labelledby="how-title"><div class="shell"><div class="section-heading centered"><p class="eyebrow">HOW IT WORKS</p><h2 id="how-title">간단하게 보고,<br>담당자가 결정합니다.</h2></div><ol class="steps"><li><b>01</b><div><h3>검토할 장면을 엽니다</h3><p>다음 RTP 노출을 기준으로 하나의 검토 장면을 시작합니다.</p></div></li><li><b>02</b><div><h3>필요한 맥락을 함께 봅니다</h3><p>계획된 노출, 최근 반응, 팀 요구를 같은 화면에서 확인합니다.</p></div></li><li><b>03</b><div><h3>사람이 다음 선택을 논의합니다</h3><p>Progress, Hold, Modify 중 무엇이 맞는지 담당자가 검토하고 선택합니다.</p></div></li></ol></div></section>
 
-      <section class="section demo-section" id="demo" aria-labelledby="demo-title"><div class="shell demo-layout"><div class="demo-copy"><p class="eyebrow">LIVE KOREAN DEMO</p><h2 id="demo-title">소개 자료 안에<br>데모를 함께 담았습니다.</h2><p>설명만 읽는 대신, 현재 만들어 둔 한국어 데모에서 DLY가 어떤 검토 장면을 만들려는지 바로 확인해 보세요.</p><a class="button primary" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">한국어 데모 열기 <span>↗</span></a></div><a class="demo-window" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer" aria-label="한국어 DLY RTP 데모 열기"><div class="window-top"><span></span><span></span><span></span><b>dly-rtp-demo / ko</b><i>새 창에서 열기 ↗</i></div><div class="demo-preview"><div class="preview-kicker">DLY: 퍼포먼스와 RTP 팀을 위한 Decision Layer</div><h3>다음 부하를 진행할지,<br>보류할지, 조정할지.</h3><p>판단에 필요한 맥락을 한곳에 모읍니다.</p><div class="preview-tabs"><span class="active">직전 노출</span><span>주간 요구</span><span>결정 맥락</span></div><div class="preview-graph"><i></i><i></i><i></i><i></i><i></i><b>예시 데이터 · 자동 추천 없음</b></div><div class="preview-footer"><span>단계 01 / 04</span><strong>한국어 데모 열기 ↗</strong></div></div></a></div></section>
-
       <section class="section stage" id="stage" aria-labelledby="stage-title"><div class="shell stage-box"><div><p class="eyebrow">CURRENT STAGE</p><h2 id="stage-title">지금은, 한 장면을<br>제대로 검증하는 단계입니다.</h2></div><div><p>DLY는 현재 초기 워크플로우 검증 단계에 있습니다. 실제 현장에서 누가 이 판단을 소유하는지, 지금은 어떤 방식으로 풀고 있는지, 그리고 어떤 출력이 유용한지를 좁혀가고 있습니다.</p><p class="stage-boundary">고객 성과, 유료 파일럿, 임상 효과를 주장하지 않습니다.</p></div></div></section>
     </main>
 
-    <footer><div class="shell footer-grid"><div><a class="nav-logo" href="#top">DLY</a><p>RTP 의사결정을 위한 맥락</p></div><div><h2>한국어 데모로<br>직접 확인해 보세요.</h2><a class="text-link" href="https://sake303.github.io/dly-rtp-demo/?lang=ko" target="_blank" rel="noreferrer">DLY RTP 데모 열기 ↗</a></div></div></footer>
+    <footer><div class="shell footer-grid"><div><a class="nav-logo" href="#top">DLY</a><p>RTP 의사결정을 위한 맥락</p></div></div></footer>
     <script src="script.js"></script>
   </body>
 </html>
