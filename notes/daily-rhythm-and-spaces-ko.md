@@ -12,8 +12,18 @@
 | 그다음 | 루프 한 사이클 돌리기 |
 | 하루 마무리 전 | Evidence / Review: 오늘 남은 근거와 결과를 확인하고 돌아보기 |
 
-## 공간과 카페
+## 공간
 
-집은 쉬고 회복하는 곳으로 두고, 집중해서 무언가를 만들 때는 밖으로 나가는 편입니다. 카페에 앉아 작업하고, 이동하면서 생각을 정리하고, 운동하는 장소로 향하는 흐름이 잘 맞습니다.
+도시별로 찾아둔 공간입니다. 아직 방문하지 않은 곳도 포함되어 있습니다.
 
-다른 도시에서도 이런 생활을 이어가고 싶습니다. 작업할 공간과 운동할 곳이 있고, 사람들과 만나 이야기하고 스포츠를 즐길 수 있는 환경을 좋아합니다. 한곳에 머물며 제 하루의 리듬을 만들어보는 데 관심이 있습니다.
+### 로스앤젤레스
+
+- [Stella Coffee Beverly Hills](https://stellacoffeela.com/pages/beverly-hills)
+- [Alana's Coffee Roasters West Hollywood](https://shop.alanascoffeeroasters.com/pages/contact)
+- [Capital One Café Hollywood](https://www.capitalone.com/local/losangeles-hollywood/)
+
+### 보스턴 · 케임브리지
+
+- [Pepita Coffee at Lamplighter](https://lamplighterbrewing.com/pages/pepita-coffee-co)
+- [Venture Café Cambridge](https://venturecafecambridge.org/)
+- [Capital One Café Boston Seaport](https://www.capitalone.com/local/boston-seaport/)
