@@ -22,6 +22,10 @@
 - [Alana's Coffee Roasters West Hollywood](https://shop.alanascoffeeroasters.com/pages/contact)
 - [Capital One Café Hollywood](https://www.capitalone.com/local/losangeles-hollywood/)
 
+### 샌프란시스코
+
+- [Corgi Cafe](https://www.corgicafe.com/)
+
 ### 보스턴 · 케임브리지
 
 - [Pepita Coffee at Lamplighter](https://lamplighterbrewing.com/pages/pepita-coffee-co)
