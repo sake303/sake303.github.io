@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#071A33">
+    <title>Glean AI Gateway</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --page: #071a33;
+        --panel-start: #102d54;
+        --panel-end: #0a1d38;
+        --glass: rgb(22 52 92 / .68);
+        --line: rgb(110 168 255 / .58);
+        --soft-line: rgb(110 168 255 / .28);
+        --text: #eaf2ff;
+        --muted: #b8cce9;
+        --hub: #1e66e6;
+      }
+
+      * { box-sizing: border-box; }
+      html, body { min-height: 100%; }
+      body {
+        display: grid;
+        place-items: center;
+        min-width: 320px;
+        margin: 0;
+        overflow-x: auto;
+        background: var(--page);
+        color: var(--text);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      .viewport { width: 100%; overflow-x: auto; padding: 20px; }
+      .visualization {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        margin: 0 auto;
+        overflow: hidden;
+        background: var(--page);
+      }
+
+      .dot-field, .wiring { position: absolute; inset: 0; width: 100%; height: 100%; }
+      .main-panel {
+        position: absolute;
+        inset: 32px 34px 36px;
+        overflow: hidden;
+        border: 1px solid rgb(110 168 255 / .42);
+        border-radius: 29px;
+        background: linear-gradient(135deg, var(--panel-start), var(--panel-end));
+      }
+      .main-panel::before {
+        position: absolute;
+        inset: 0;
+        content: "";
+        background: radial-gradient(circle at 40% 42%, rgb(110 168 255 / .09), transparent 30%);
+        pointer-events: none;
+      }
+
+      .signal {
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 40px;
+        border: 1px solid rgb(143 187 255 / .55);
+        border-radius: 6px;
+        background: linear-gradient(180deg, #f8fbff, #dbeaff);
+        color: #15345c;
+        box-shadow: 0 7px 14px rgb(2 14 34 / .17);
+        font-size: 13px;
+        font-weight: 650;
+        letter-spacing: -.02em;
+        padding: 0 11px;
+      }
+      .signal-mark { display: grid; width: 17px; height: 17px; place-items: center; font-size: 16px; line-height: 1; }
+      .signal-cursor { top: 224px; left: 286px; width: 115px; }
+      .signal-claude { top: 290px; left: 224px; width: 174px; }
+      .signal-codex { top: 349px; left: 266px; width: 136px; }
+      .signal-chatgpt { top: 413px; left: 266px; width: 168px; }
+
+      .hub {
+        position: absolute;
+        z-index: 2;
+        top: 280px;
+        left: 454px;
+        display: grid;
+        width: 160px;
+        height: 160px;
+        place-items: center;
+        padding: 25px;
+        border: 1px solid #73d8ff;
+        border-radius: 50%;
+        background: var(--hub);
+        box-shadow: inset 0 0 0 1px rgb(234 242 255 / .12);
+        color: white;
+        text-align: center;
+      }
+      .hub-mark { display: block; margin-bottom: 8px; font-family: Georgia, serif; font-size: 30px; font-weight: 700; line-height: .65; }
+      .hub span { display: block; font-size: 15px; font-weight: 700; line-height: 1.12; letter-spacing: -.045em; }
+
+      .trace-divider {
+        position: absolute;
+        z-index: 1;
+        top: 101px;
+        bottom: 82px;
+        left: 632px;
+        width: 28px;
+        border-right: 1px solid rgb(110 168 255 / .28);
+        border-left: 1px solid rgb(110 168 255 / .28);
+        background: linear-gradient(90deg, rgb(110 168 255 / .15), rgb(110 168 255 / .03));
+      }
+      .trace-divider span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #d9e9ff;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: .08em;
+        transform: translate(-50%, -50%) rotate(-90deg);
+        white-space: nowrap;
+      }
+
+      .context-title {
+        position: absolute;
+        z-index: 3;
+        top: 84px;
+        left: 748px;
+        margin: 0;
+        padding: 7px 12px;
+        border-radius: 6px;
+        background: #dbeaff;
+        color: #15345c;
+        font-size: 12px;
+        font-weight: 750;
+        letter-spacing: -.03em;
+      }
+      .context-panel, .decision-panel {
+        position: absolute;
+        z-index: 2;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 9px;
+        background: var(--glass);
+      }
+      .context-panel { top: 99px; left: 686px; width: 344px; height: 245px; }
+      .decision-panel { top: 371px; left: 686px; width: 344px; height: 223px; }
+      .context-graph { width: 100%; height: 100%; }
+      .context-graph .edge { stroke: rgb(110 168 255 / .52); stroke-width: 1.15; }
+      .context-graph .node { fill: #eaf2ff; stroke: #75ceff; stroke-width: 1.3; }
+      .context-graph .node-accent { fill: #1e66e6; stroke: #b8edff; stroke-width: 1.3; }
+      .context-graph text { fill: #d9e9ff; font-size: 9px; font-weight: 650; }
+      .context-graph .tag { fill: rgb(16 45 84 / .92); stroke: rgb(110 168 255 / .36); stroke-width: .8; }
+
+      .decision-title {
+        position: absolute;
+        top: 17px;
+        left: 50%;
+        margin: 0;
+        color: var(--text);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: -.025em;
+        transform: translateX(-50%);
+        white-space: nowrap;
+      }
+      .model-grid { position: absolute; top: 67px; left: 51px; display: grid; grid-template-columns: repeat(4, 42px); gap: 18px 19px; }
+      .model-icon { display: grid; width: 42px; height: 42px; place-items: center; border: 1px solid rgb(234 242 255 / .76); border-radius: 50%; background: #eaf2ff; color: #1e66e6; font-size: 22px; font-weight: 750; line-height: 1; }
+      .model-icon:nth-child(1) { color: #df632e; }.model-icon:nth-child(2) { color: #1d2e52; }.model-icon:nth-child(3) { color: #4e8ddf; }.model-icon:nth-child(4) { color: #1976df; }.model-icon:nth-child(5) { color: #6daa42; }.model-icon:nth-child(6) { color: #243c76; }.model-icon:nth-child(7) { color: #425fdd; }
+
+      @media (max-width: 1319px) {
+        .viewport { padding: 0; }
+        .visualization { margin: 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="viewport" aria-label="Glean AI Gateway visualization">
+      <section class="visualization" aria-label="Glean AI Gateway architecture">
+        <svg class="dot-field" viewBox="0 0 1280 720" aria-hidden="true">
+          <defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#6ea8ff" fill-opacity=".38" /></pattern></defs>
+          <rect width="1280" height="720" fill="url(#dots)" />
+        </svg>
+        <div class="main-panel" aria-hidden="true"></div>
+        <svg class="wiring" viewBox="0 0 1280 720" aria-hidden="true">
+          <g fill="none" stroke="#6ea8ff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".75" stroke-width="1.3" stroke-dasharray="4 4">
+            <path d="M401 244H432V318H454" />
+            <path d="M398 310H432V360H454" />
+            <path d="M402 369H432V384H454" />
+            <path d="M434 433H432V402H454" />
+            <path d="M614 360H686" />
+            <path d="M614 360H660V221H686" />
+            <path d="M614 360H660V481H686" />
+          </g>
+        </svg>
+
+        <div class="signal signal-cursor"><span class="signal-mark" aria-hidden="true">◆</span>Cursor</div>
+        <div class="signal signal-claude"><span class="signal-mark" aria-hidden="true">✳</span>Claude Code</div>
+        <div class="signal signal-codex"><span class="signal-mark" aria-hidden="true">◆</span>Codex</div>
+        <div class="signal signal-chatgpt"><span class="signal-mark" aria-hidden="true">◎</span>ChatGPT</div>
+        <div class="hub"><div><span class="hub-mark" aria-hidden="true">g</span><span>Glean AI<br>Gateway</span></div></div>
+        <div class="trace-divider" aria-hidden="true"><span>Glean Protect</span></div>
+
+        <h1 class="context-title">Glean Enterprise Context</h1>
+        <section class="context-panel" aria-label="Glean Enterprise Context">
+          <svg class="context-graph" viewBox="0 0 344 245" role="img" aria-label="Connected enterprise context graph">
+            <g class="edge"><path d="M55 54L126 78L180 45L259 79L285 143L230 187L137 182L77 150Z"/><path d="M55 54L77 150L126 78L137 182L180 45L230 187L259 79L285 143L137 182L259 79"/><path d="M126 78L230 187M77 150L180 45"/></g>
+            <g><circle class="node" cx="55" cy="54" r="5"/><circle class="node" cx="126" cy="78" r="5"/><circle class="node" cx="180" cy="45" r="5"/><circle class="node-accent" cx="259" cy="79" r="7"/><circle class="node" cx="285" cy="143" r="5"/><circle class="node" cx="230" cy="187" r="5"/><circle class="node" cx="137" cy="182" r="5"/><circle class="node" cx="77" cy="150" r="5"/></g>
+            <g><rect class="tag" x="21" y="25" width="77" height="18" rx="3"/><text x="59.5" y="37" text-anchor="middle">Infrastructure</text><rect class="tag" x="93" y="91" width="57" height="18" rx="3"/><text x="121.5" y="103" text-anchor="middle">Processes</text><rect class="tag" x="270" y="51" width="46" height="18" rx="3"/><text x="293" y="63" text-anchor="middle">People</text><rect class="tag" x="198" y="91" width="49" height="18" rx="3"/><text x="222.5" y="103" text-anchor="middle">Content</text><rect class="tag" x="152" y="198" width="43" height="18" rx="3"/><text x="173.5" y="210" text-anchor="middle">People</text><rect class="tag" x="225" y="198" width="62" height="18" rx="3"/><text x="256" y="210" text-anchor="middle">Customers</text></g>
+          </svg>
+        </section>
+        <section class="decision-panel" aria-label="Model hub">
+          <h2 class="decision-title">Model hub</h2>
+          <div class="model-grid" aria-label="Model icons"><span class="model-icon">✳</span><span class="model-icon">◎</span><span class="model-icon">✦</span><span class="model-icon">∞</span><span class="model-icon">◉</span><span class="model-icon">△</span><span class="model-icon">g</span></div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
