@@ -28,6 +28,8 @@ Places I've found, grouped by city.
 
 ### Boston · Cambridge
 
+- [Forge Baking Co & Ice Cream Bar](https://maps.app.goo.gl/vgUf1591xxk7Pf5h6)
+- [Phinista Cafe](https://www.phinista.com/)
 - [Pepita Coffee at Lamplighter](https://lamplighterbrewing.com/pages/pepita-coffee-co)
 - [Venture Café Cambridge](https://venturecafecambridge.org/)
 - [Capital One Café Boston Seaport](https://www.capitalone.com/local/boston-seaport/)
