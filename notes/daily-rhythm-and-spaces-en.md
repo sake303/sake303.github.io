@@ -27,7 +27,7 @@ I want a life where I learn through experience in the field, study and reflect w
 
 [A declaration by Fields Medalists](https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/) describes solving mathematical problems as a means toward conceptual understanding and insight. The connection to studying more broadly and to the life I want is my own.
 
-I plan to keep adding questions and notes that connect to my experiences in [this collection](README.md).
+I plan to keep adding questions and notes that connect to my experiences in [this collection](fundamentals-en.md).
 
 ## Spaces
 
