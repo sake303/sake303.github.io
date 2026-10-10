@@ -1,29 +1,32 @@
 # The fundamentals
 
-This is a place for things I want to learn to understand the world and people. I want to read philosophy, mathematics, and science, and connect what I learn to my experiences. I'll start with questions and add to these notes as I learn.
+This is a place for things I want to learn to understand the world and people. I want to study different subjects and connect what I learn to my experiences. I'll start with questions and add to these notes as I learn.
 
 ## Why I study
 
 Even if AI becomes more capable than humans, I think we still have reasons to study. Learning gives us a chance to understand things for ourselves, gain insight, ask new questions, and develop our thinking through conversations with others.
 
-## Questions I want to explore
+## What I consider fundamental
 
-### Understanding and knowledge
+These are the areas I consider fundamental and want to keep learning about:
 
-- How is knowing an answer different from understanding it?
-- What grounds do we have for saying we know something?
+- Philosophy
+- Mathematics/science
+- Reading/writing/logic
+- History/society
+- Arts/physical education
 
-### People and life
+I want to keep notes on what I learn in these areas and how it connects to my experiences.
 
-- What do I want to give importance to in my life?
-- How do learning and meeting people change the way I think?
+## Connecting this to entrepreneurship: decisions and RTP
 
-### Decisions and action
+When I connected these interests to entrepreneurship, I focused on decision-making. I'm interested in what we give importance to, what information we base our choices on, and how experience changes our judgment.
 
-- What information do we use to make a choice?
-- When I delegate work to AI, how do I understand the results and change direction?
+Within sport and physical education, where I have an interest and experience, I chose return-to-play (RTP) decisions as a specific starting point.
 
-These questions are a starting point. I expect to change them and add others as I learn.
+The fundamentals → decision-making → sport/physical education → RTP decisions
+
+I want to keep my learning broad while focusing my work as a founder on understanding and helping with RTP decisions. What I learn in other areas can also connect to this interest and to my life.
 
 ## What I've learned and what I think
 
