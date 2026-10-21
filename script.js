@@ -8,11 +8,11 @@ const supportedLanguages = new Set(["ko", "en"]);
 const languageMetadata = {
   ko: {
     title: "Seokhee Lee",
-    description: "Seokhee Lee는 사람들이 더 나은 결정을 내릴 수 있도록 무언가를 만드는 사람입니다."
+    description: "Seokhee Lee는 사람들이 자신의 기준과 상황에 맞게 더 나은 선택을 할 수 있도록 돕는 일을 하고 있습니다."
   },
   en: {
     title: "Seokhee Lee",
-    description: "Seokhee Lee is a builder who makes things that help people make better decisions."
+    description: "Seokhee Lee works to help people make better decisions for themselves, based on what matters to them and their circumstances."
   }
 };
 
