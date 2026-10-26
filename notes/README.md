@@ -1,7 +1,5 @@
 # Notes
 
-- [본질적인 것 · 한국어](fundamentals-ko.md)
-- [The fundamentals · English](fundamentals-en.md)
+- [살아가고, 배우고, 일하는 방식](living-learning-and-working-ko.md)
 
-- [체육·스포츠, 그리고 연결 · 한국어 초안](moving-sport-and-taste-ko.md)
-- [스포츠에서 출발한 비즈니스 탐색 · 한국어](sports-business-exploration-ko.md)
+삶의 중심, 배움, 일과 연결, 사람·에이전트와 함께하는 방식, 하루와 일주일, 좋아하는 공간을 한 문서에 정리하고 있습니다. 현재 한국어 검토용 초안이며, 홈페이지 Taste에는 아직 연결하지 않았습니다.
