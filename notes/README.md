@@ -1,5 +1,5 @@
 # Notes
 
-- [살아가고, 배우고, 일하는 방식](living-learning-and-working-ko.md)
-
-삶의 중심, 배움, 일과 연결, 사람·에이전트와 함께하는 방식, 하루와 일주일, 좋아하는 공간을 한 문서에 정리하고 있습니다. 현재 한국어 검토용 초안이며, 홈페이지 Taste에는 아직 연결하지 않았습니다.
+- [이석희는 누구인가](center-life-means-experiments-ko.md): 핵심, 기반, 실험으로 정리한 자기소개.
+- [왜 연결하는 방식으로 사업을 만드는가](connected-ecosystem-business-rationale-ko.md): 사업 방향과 수익모델, 참고한 제품과 협력 사례.
+- [마누 지노빌리: 팀 안에서 자기 방식으로 기여하기](manu-ginobili-role-reference-ko.md): 선수의 역할과 플레이를 조사하고 내가 참고하는 점을 정리한 기록.
