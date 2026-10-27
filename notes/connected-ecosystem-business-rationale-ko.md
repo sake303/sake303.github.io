@@ -14,25 +14,27 @@
 2. **제품 방향**: 기존 툴에서 쓰이는 데이터와 맥락을 연결해 고객의 더 나은 의사결정을 돕기.
 3. **팀**: 파트너사의 기술·판매 인력과 함께 일하는 방식을 만들기. 협력하면서 직접 갖춰야 할 역량을 파악하고, 그에 맞춰 핵심 팀을 꾸려가기.
 
-## 제품 방향에서 참고하는 것
-
-- **Glean**: 흩어진 정보와 맥락을 연결해 필요한 내용을 이해하고 활용하도록 돕는 방식.
-- **Wiz**: 서로 다른 전문가들이 같은 상황을 한눈에 이해할 수 있도록 정보를 연결하고 시각화하는 방식.
-
-## 파트너십과 팀에서 참고하는 플레이와 사례
-
-**내가 지향하는 플레이**: [지노빌리](manu-ginobili-role-reference-ko.md) 같은 플레이를 선호하고, 내 현장 이해와 제품을 더해 파트너 기업이 더 잘하도록 돕고 함께 성장해가려 합니다.
-
-- **[AWS Global Startup Program](https://aws.amazon.com/partners/programs/global-startup/)**: AWS 기술 전문가·Partner Solutions Architect의 제품 설계와 고객 적용 지원, Account Manager와의 공동판매를 제공하는 프로그램. 초청·참여 요건이 있습니다.
-- **[Pixellot–Prozone (2015)](https://www.pixellot.tv/press-releases/prozone-invests-1m-in-israeli-technology-company-pixellot/)**: Prozone이 Pixellot에 미화 100만 달러를 투자하고, 양사의 기술과 Prozone의 기존 프로스포츠 고객 기반을 연결하는 협력을 발표한 사례.
-
-## 생각하는 수익모델
+### 생각하는 수익모델
 
 파트너 생태계에 연결해 도입할 수 있는 수익모델을 만들어가려 합니다.
 
 - **초기 셋업**: 초기 도입 부담을 낮춘 비용.
 - **구독**: 지속적인 서비스 이용에 대한 요금.
 - **추가 사용료**: API 호출 등 사용량에 따른 요금.
+
+## 참고한 것들
+
+### 제품 방향에서 참고하는 것
+
+- **Glean**: 흩어진 정보와 맥락을 연결해 필요한 내용을 이해하고 활용하도록 돕는 방식.
+- **Wiz**: 서로 다른 전문가들이 같은 상황을 한눈에 이해할 수 있도록 정보를 연결하고 시각화하는 방식.
+
+### 파트너십과 팀에서 참고하는 플레이와 사례
+
+**내가 지향하는 플레이**: [지노빌리](manu-ginobili-role-reference-ko.md) 같은 플레이를 선호하고, 내 현장 이해와 제품을 더해 파트너 기업이 더 잘하도록 돕고 함께 성장해가려 합니다.
+
+- **[AWS Global Startup Program](https://aws.amazon.com/partners/programs/global-startup/)**: AWS 기술 전문가·Partner Solutions Architect의 제품 설계와 고객 적용 지원, Account Manager와의 공동판매를 제공하는 프로그램. 초청·참여 요건이 있습니다.
+- **[Pixellot–Prozone (2015)](https://www.pixellot.tv/press-releases/prozone-invests-1m-in-israeli-technology-company-pixellot/)**: Prozone이 Pixellot에 미화 100만 달러를 투자하고, 양사의 기술과 Prozone의 기존 프로스포츠 고객 기반을 연결하는 협력을 발표한 사례.
 
 [중심에서 삶과 실행으로](center-life-means-experiments-ko.md)
 
