@@ -17,6 +17,15 @@
 - **Glean**: 흩어진 정보와 맥락을 연결해 필요한 내용을 이해하고 활용하도록 돕는 방식.
 - **Wiz**: 서로 다른 전문가들이 같은 상황을 한눈에 이해할 수 있도록 정보를 연결하고 시각화하는 방식.
 
+## 만들어가려는 팀
+
+제품을 함께 책임질 핵심 팀을 만들고, 파트너사의 기술·판매 인력과도 함께 일하는 팀을 만들어가려 합니다. 각자의 전문성과 고객 접점을 연결해 제품을 만들고, 고객 도입과 영어권 시장 확장을 함께 추진하려 합니다.
+
+### 참고 사례
+
+- **[AWS Global Startup Program](https://aws.amazon.com/partners/programs/global-startup/)**: AWS 기술 전문가·Partner Solutions Architect의 제품 설계와 고객 적용 지원, Account Manager와의 공동판매를 제공하는 프로그램. 초청·참여 요건이 있습니다.
+- **[Pixellot–Prozone (2015)](https://www.pixellot.tv/press-releases/prozone-invests-1m-in-israeli-technology-company-pixellot/)**: Prozone이 Pixellot에 미화 100만 달러를 투자하고, 양사의 기술과 Prozone의 기존 프로스포츠 고객 기반을 연결하는 협력을 발표한 사례.
+
 ## 생각하는 수익모델
 
 파트너 생태계에 연결해 도입할 수 있는 수익모델을 만들어가려 합니다.
