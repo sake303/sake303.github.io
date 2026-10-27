@@ -23,7 +23,7 @@
 
 ## 파트너십과 팀에서 참고하는 플레이와 사례
 
-**내가 지향하는 플레이**: [지노빌리](manu-ginobili-role-reference-ko.md) 같은 벤치 에이스로, 내 현장 이해와 제품을 더해 파트너 기업이 더 잘하도록 돕고 함께 성장해가려 합니다.
+**내가 지향하는 플레이**: [지노빌리](manu-ginobili-role-reference-ko.md) 같은 플레이를 선호하고, 내 현장 이해와 제품을 더해 파트너 기업이 더 잘하도록 돕고 함께 성장해가려 합니다.
 
 - **[AWS Global Startup Program](https://aws.amazon.com/partners/programs/global-startup/)**: AWS 기술 전문가·Partner Solutions Architect의 제품 설계와 고객 적용 지원, Account Manager와의 공동판매를 제공하는 프로그램. 초청·참여 요건이 있습니다.
 - **[Pixellot–Prozone (2015)](https://www.pixellot.tv/press-releases/prozone-invests-1m-in-israeli-technology-company-pixellot/)**: Prozone이 Pixellot에 미화 100만 달러를 투자하고, 양사의 기술과 Prozone의 기존 프로스포츠 고객 기반을 연결하는 협력을 발표한 사례.
