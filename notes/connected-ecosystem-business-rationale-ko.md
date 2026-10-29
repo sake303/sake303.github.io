@@ -18,6 +18,17 @@
 
 나와 에이전트가 실무자와 소통하며 문제와 사용 중인 도구를 알아갑니다. 그 문제를 함께 해결할 파트너를 찾고, 파트너사 내부 인원과 소규모 팀으로 유료 파일럿을 진행하려 합니다. 결과를 바탕으로 데이터와 맥락을 연결하는 역량을 키우고, 다음 계약과 협력으로 이어가려 합니다.
 
+**내가 지향하는 사업 흐름**
+
+> **Seokhee + Agents**<br/>
+> → **Practitioner Discovery**<br/>
+> → **Partner Fit**<br/>
+> → **Paid Pilot · Team with Partner Staff**<br/>
+> → **Repeat Business & Growth**<br/>
+> ⇢ **Fundraising / Exit**
+
+나와 에이전트에서 출발해 실무자의 문제를 알아가고, 함께 해결할 파트너와 역할을 맞춥니다. 파트너사 내부 인원과 소규모 팀으로 유료 파일럿을 수행하고, 확인한 가치를 반복 계약과 성장으로 이어가려 합니다. 마지막의 ⇢는 성과와 상호 의사·조건이 맞을 때 검토하는 선택지입니다. 함께 일한 파트너의 투자나 인수도 그 가능성에 포함합니다.
+
 ```mermaid
 flowchart LR
     A["DLY / VP<br/>Discovery<br/>Connecting: Data · Context"]
