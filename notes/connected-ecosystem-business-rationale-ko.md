@@ -91,8 +91,8 @@ flowchart LR
 
 **내가 지향하는 플레이**: [지노빌리](manu-ginobili-role-reference-ko.md) 같은 플레이를 선호하고, 내 현장 이해와 제품을 더해 파트너 기업이 더 잘하도록 돕고 함께 성장해가려 합니다.
 
-- **[AWS Global Startup Program](https://aws.amazon.com/partners/programs/global-startup/)**: AWS 기술 전문가·Partner Solutions Architect의 제품 설계와 고객 적용 지원, Account Manager와의 공동판매를 제공하는 프로그램. 초청·참여 요건이 있습니다.
-- **[Pixellot–Prozone (2015)](https://www.pixellot.tv/press-releases/prozone-invests-1m-in-israeli-technology-company-pixellot/)**: Prozone이 Pixellot에 미화 100만 달러를 투자하고, 양사의 기술과 Prozone의 기존 프로스포츠 고객 기반을 연결하는 협력을 발표한 사례.
+**지금 중점적으로 볼 질문:** 아직 제품과 관계가 충분하지 않을 때, 무엇을 제공해 첫 공동 작업을 시작했는가? 당시 가진 기술·경험·인맥과 부족했던 것을 구분하고, 첫 제안과 작은 작업의 범위, 상대가 함께한 이유, 다음 작업으로 이어진 근거를 살펴보려 합니다. 사업 방식과 함께, 그 과정에서 어떤 제품 방향이 잡혔는지도 보려 합니다.
+
 - **[Sevensense × ABB: 공동개발·고객 파일럿에서 파트너의 투자·인수까지](sevensense-abb-case-study-ko.md)**
 
 [중심에서 삶과 실행으로](center-life-means-experiments-ko.md)
