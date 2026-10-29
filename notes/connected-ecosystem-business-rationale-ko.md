@@ -94,7 +94,6 @@ flowchart LR
 **지금 중점적으로 볼 질문:** 아직 제품과 관계가 충분하지 않을 때, 무엇을 제공해 첫 공동 작업을 시작했는가? 당시 가진 기술·경험·인맥과 부족했던 것을 구분하고, 첫 제안과 작은 작업의 범위, 상대가 함께한 이유, 다음 작업으로 이어진 근거를 살펴보려 합니다. 사업 방식과 함께, 그 과정에서 어떤 제품 방향이 잡혔는지도 보려 합니다.
 
 - **[Zapier × 첫 고객: 기존 관계 없이 문제를 찾아 첫 유료 작업으로 연결하기](zapier-first-customer-case-study-ko.md)**
-- **[Sevensense × ABB: 공동개발·고객 파일럿에서 파트너의 투자·인수까지](sevensense-abb-case-study-ko.md)**
 
 [중심에서 삶과 실행으로](center-life-means-experiments-ko.md)
 
