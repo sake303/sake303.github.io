@@ -4,6 +4,8 @@
 
 [시간 사용 벤치마크로 돌아가기](founder-time-work-benchmark-ko.md)
 
+**대상:** Clay 공동창업자 [Varun Anand · LinkedIn](https://www.linkedin.com/in/vaanand/). 본인이 직접 설명한 발굴·연락·콜·후속·제품팀 인계를 중심으로 봅니다.
+
 Clay는 여러 데이터·도구를 연결해 고객 업무를 해결한다는 점에서 비교할 사례입니다. 다만 아래 활동 당시에는 작동 제품과 개발팀, 기존 유료 사용자가 있었습니다. 새 고객군을 찾는 일과 제품 사용을 돕는 일을 나눠 봅니다. 공개 인터뷰·본인 글에 근거한 회고이며 캘린더·CRM 실측 자료는 아닙니다.
 
 ## 초기 탐색에서 확인되는 양
@@ -39,13 +41,13 @@ Varun은 하루 약 8회의 reverse demo를 회고했습니다. 고객 요구에
 
 **계산 가정:** 8회에 30분씩 배정하면 콜 슬롯만 하루 4시간입니다. 주 5일이면 40회·20시간이지만 실제 매주 고정 실적은 아닙니다. 준비·예약 조율·후속·제품 검토·엔지니어 작업은 포함하지 않습니다. 초기 후보 30명과 이후 하루 8콜을 같은 주의 작업량으로 합치지 않습니다.
 
-## 공동창업자와 팀에서 누가 했나
+## Varun이 직접 한 일과 제품팀에 넘긴 일
 
-Kareem Amin의 초기 인터뷰에는 공동창업자와 연결 도구 시제품을 만들고 직접 prospecting도 한 경험이 나옵니다. 기사에서는 Nicolae의 prospecting을 설명합니다. 두 사람의 역할을 배타적인 전담으로 정하지 않으며, 개인별 주간 연락·콜·개발시간은 확인되지 않았습니다. **현재 수량 비교의 중심은 Varun의 기록**입니다.
+Varun은 후보 선별·연락·사용 동행·문제 관찰·변경 요청·고객 후속 접점 확보를 직접 했다고 설명합니다. 발견한 문제를 엔지니어팀에 연결하고, 팀의 구현으로 제품 개선을 이어갔습니다.
 
-출처: [Kareem 본인 인터뷰](https://review.firstround.com/podcast/clays-path-to-product-market-fit-building-vertical-creating-power-users-and-understanding-founder-psychology-kareem-amin-co-founder-and-ceo/), [인터뷰 기사](https://review.firstround.com/clays-path-to-product-market-fit/).
+엔지니어의 구현 사례는 Varun의 인계가 어떻게 이어졌는지 보는 맥락입니다. 팀의 작업량을 Varun 개인의 제작시간으로 세지 않습니다. 본인의 주간 코딩·검토시간과 요청 처리량은 확인되지 않았습니다.
 
-Varun의 고객 관찰·요청과 엔지니어팀의 구현을 구분합니다. 엔지니어의 작업량을 Varun 개인의 제작시간으로 세지 않습니다.
+출처: [Varun 본인 인터뷰](https://review.firstround.com/podcast/inside-clays-unconventional-path-to-1-25b/), [본인 reverse demo 글](https://www.linkedin.com/posts/vaanand_heres-how-clay-used-reverse-demos-to-find-activity-7429904039900823552-ljrx).
 
 ## 내 네 블록에서 비교할 것
 
