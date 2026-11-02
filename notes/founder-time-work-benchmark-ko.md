@@ -1,6 +1,6 @@
 # 나는 시간을 어떻게 쓸 것인가
 
-> 2026-10-29 · 업데이트 2026-11-01 · Founder/Seokhee Lee
+> 2026-10-29 · 업데이트 2026-11-02 · Founder/Seokhee Lee
 
 Varun Anand가 하루 약8콜을 이어가기 위해 발굴·연락·콜·엔지니어 인계와 후속을 어떻게 연결했는지 집중적으로 살펴봅니다. 이를 내 현재 작업과 비교하면서, 내가 직접 시간을 쓸 일과 에이전트에 맡겨 병렬로 진행할 일을 구체화하려 합니다.
 
@@ -37,3 +37,24 @@ Varun Anand가 하루 약8콜을 이어가기 위해 발굴·연락·콜·엔지
 - [Clay 공식 글 — 인바운드 접수·정보 보완·선별·예약](https://www.clay.com/blog/set-up-your-full-inbound-sales-process-on-clay)
 - [Clay Creator 프로그램 — 이후 콘텐츠 제작 지원](https://www.clay.com/partners/creators) — 공사 중 안내 포함, 초기 운영과 구분.
 - [Clay FAQ — 제작 지원·기능 접근·크레딧 조건](https://www.clay.com/faq) — 임시 접근·크레딧은 캠페인별 개별 판단이며 자동 제공 아님.
+
+### 추가 수집 — Varun의 일하는 방식 (2026-11-02)
+
+**수집 기준:** 링크 수보다 서로 다른 원본의 새 정보를 남긴다. 같은 회차의 영상·오디오·전사·편집 기사·요약 사이트는 한 묶음으로 센다. 기존 First Round 회차와 reverse demo 글의 반복 설명은 아래에 다시 풀어 쓰지 않는다. 자료를 찾았다는 것과 전체 음성을 듣고 검증했다는 것은 구분한다.
+
+| 원본 묶음 | 새로 볼 내용·읽는 지점 | 기존 자료와의 차이·확인 수준 |
+| --- | --- | --- |
+| **[Operators Only — Clay co-founder on finding PMF, 10x hyper-growth, commitment in life + career, & more](https://music.amazon.com/es-co/podcasts/871667e2-979c-4ebd-b146-e92df26231bb/episodes/15c6bf89-9edc-4f0d-8e0e-82bd86ca9047/this-week-in-finance-tech-clay-co-founder-on-finding-pmf-10x-hyper-growth-commitment-in-life-career-more)** · 2024-09-15 · 약49분 | 제작자 챕터 기준 **06:33** 초기 Clay, **08:45** GTM 구성, **15:04** 성장 과정, **19:17** 공동창업자 역할, **37:07** 일과 개인생활. 제작자 설명에는 제품·팀의 피드백 연결, 채용·집중, 파트너 간 신뢰·갈등도 포함. | 초기 GTM뿐 아니라 **역할 변화·집중·생활과 일의 배분**을 살펴볼 별도 인터뷰. **제작자 소개·챕터만 확인; 전사/음성 전체 미검증.** 챕터를 실제 하루 시간표나 특정 실행 방식의 증거로 쓰지 않는다. 배포 당시 Operators Only와 현재 피드명 This Week in Finance Tech는 같은 회차로 관리. |
+| **[Notion First Block — Varun Anand](https://www.notion.com/en-gb/blog/first-block-with-varun-anand)** · 2025-07-22 · 약28분 | 공식 챕터 **10:50** Scaling with Intent, **16:04** 영업 역할 재구성, **19:58** 잠재력 기반 채용, **21:48** 운영 문화. 공식 요약은 기존 직무 경험과 다른 배경의 사람을 채용하고, 그에 맞춰 보상을 유연하게 설계했다고 소개한다. | reverse demo 재설명보다 **고객 일을 함께 맡길 사람의 배경·역할·보상** 쪽을 추가로 볼 자료. **공식 소개·요약·챕터 확인; 접힌 전체 전사와 음성 미검증.** 블로그·YouTube·Spotify·Apple은 한 회차로 센다. |
+| **[SaaStr 841 — Going From Blobs to Billions](https://music.amazon.com/es-us/podcasts/b907bdee-7c44-49c8-8fa0-f0d094dc1eb1/episodes/fa8e1b38-8b10-4b30-aa94-f76b1e3e1467/the-official-saastr-podcast-saastr-841-going-from-blobs-to-billions-clay%27s-co-founder-breaks-down-inbound-outbound-and-ai-powered-sales)** · 배포일2026-02-11 · 약32분 | 공식 회차 소개: 관객 사례로 **유입 정보 보완→데이터 waterfall→AI 선별→개인화→담당자 조사 브리프→CRM 갱신**을 시연. CFO와의 콘텐츠 제작, GTM Engineer 역할, 과제·work trial·특정 역할에 집중하는 채용도 다룸. | 기존 inbound 글의 절차 설명 외에 **Varun의 직접 시연·콘텐츠 협업·실무자 평가 방식**을 확인할 자료. **제작자 쇼노트 확인; 시연 영상/전사 전체 미검증.** 실제 Clay 내부의 전 고객 운영·Varun 개인 루틴으로 일반화하지 않는다. 행사 촬영일은 별도 미확인. 요약 사이트와 다른 오디오 앱 재배포는 추가 자료로 세지 않는다. |
+| **[Hg Orbit 58 — The race for alpha](https://hgcapital.com/insights/orbit-podcast/the-race-for-alpha-varun-anand-of-clay-on-inventing-a-new-role)** · 공개일 페이지에서 미확인 | 공식 전사에서 **“let me tell you a quick example of how Clay uses Clay”** 부근: 자기 LinkedIn 글·Clay 언급·고객 반응을 분석해 기존 고객 정보는 Salesforce의 담당자/CSM 브리핑으로, 잠재고객 반응은 연락 후보로 전달. 다음 경쟁사 언급 예시는 Gong·LinkedIn 정보를 제품 마케팅·담당자 브리핑·CRM·다음 행동으로 연결. **“We have PMs in the company”** 부근은 내부 GTM팀이 도구의 한계를 시험하고, Clay로 안 되면 다른 도구도 써 제품팀에 개선 압력을 만드는 방식. **“for a long time our support was done by engineers”** 부근은 고객을 돕는 사람과 기능을 만드는 사람을 붙였던 초기 운영을 설명. | **공식 화자별 전사 확인.** 기존 reverse demo의 한 번의 콜→수정에서 더 나아가 **상시 신호→담당자 맥락→행동**, 내부 사용→제품 개선의 연결을 추가. 후기에 PM이 생겼다는 설명도 있으므로 초기 소규모 운영과 같은 시점으로 합치지 않는다. Clay 팀의 운영 설명이며 Varun 혼자 이 시스템을 구현했다는 뜻이 아님. 향후18–24개월 agent 전망은 현재 실행 사실에서 제외. |
+
+| **[Varun 본인 글 — Executive Assistant 채용](https://www.linkedin.com/posts/vaanand_i-started-my-career-as-an-executive-assistant-activity-7335729091133820929-eut8)** · 정확한 게시일 미확인 | 캘린더·출장 준비를 맡기고, 더 시간을 써야 할 enterprise 고객과 챙겨야 할 팀원을 파악해 관계의 우선순위를 돕도록 요청. 고객·파트너·팀원에게 보낼 선물 조사·포장·메모 준비도 역할로 명시. | **게시물 본문 확인.** 기존 고객 콜 자료에 없던 **본인 시간·관계 관리의 구체 위임 범위**. 채용 공고에 적은 기대 역할이며 실제 채용 완료·그대로 운영한 성과·절약 시간은 미확인. 초기8콜 시기와 같은 조직 단계로 보지 않는다. |
+
+**중복 정리:**
+- 기존 First Round 팟캐스트와 편집 기사는 같은 인터뷰다. 원본/읽기 편한 버전의 관계만 유지하며 두 개의 독립 증거로 세지 않는다.
+- Notion First Block의 블로그·영상·오디오·번역/재게시, SaaStr 841의 배포 앱·외부 요약은 각각 한 회차다.
+- Hg의 초기 에이전시·LinkedIn 성장·GTM Engineer 설명 중 기존 자료와 겹치는 부분은 새 사실로 반복 추가하지 않았다.
+- 기존 Eric 게시물·Clay 공식 운영 글·Creator/FAQ는 **동료 사례·회사 운영 참고**다. Varun 자신의 글·발언과 구분해 읽는다.
+
+**이 자료로 아직 알 수 없는 것:** Varun의 실제 캘린더, 하루 총노동시간, 주간 콜 구성, 학습 시간, 인계·검토 소요시간은 여전히 미확인이다. 소개문만 확인한 회차에서 구체 작업법을 인용하려면 해당 영상/전사를 먼저 대조한다. 이번 추가는 자료 수집이며 Seokhee의 시간표·채용·새 자동화 채택을 뜻하지 않는다.
