@@ -25,7 +25,7 @@ Varun Anand가 하루 약8콜을 이어가기 위해 발굴·연락·콜·엔지
 | 콜 → 후속 연락 채널 연결 | 콜 종료 전 상대의 Clay Slack 커뮤니티 가입과 Varun에게 보내는 DM을 확인해 후속 지원 접점 확보 | 콜 종료 전 후속 질문 가능 여부와 선호 연락 채널을 확인하고, 이메일 또는 상대가 편한 DM 채널로 연결한다. |
 | 이 흐름을 돌리는 시간 | 8회×30분이면 콜 슬롯4시간이라는 계산. 실제 총시간·준비/후속시간은 미공개 | 오전 Discovery·오후 Product/Partnership을 중심으로 Lab 루프·아카이브 검토를 병행. 캘린더의1시간 표시는 착수 기준이며 작업 한도가 아니다. 실제 콜 약속과 회신에 따라 조정하고 직접 판단·대화·인계·검토에 든 시간을 살핀다. |
 
-역산할 순서는 **8콜의 구성 → 예약 공급 → 발굴·연락·인바운드 필요량 → 콜 준비/진행 → 인계·구현·결과 검토의 처리능력**이다. 내 칸의 빈값을 채우면서 어느 단계에 시간을 더 써야 하는지 본다. 기준8콜을 먼저 둔다는 것과 매일8콜 달성을 지금 고정 의무로 정하는 것은 구분한다.
+**하루 8콜을 기준으로 발굴·유입 → 예약·콜 → 인계·구현·검토에 필요한 작업량과 시간을 역산한다.**
 
 자료 근거와 확인 범위: [Clay / Varun 상세](clay-varun-workload-case-study-ko.md), [Varun 본인 인터뷰](https://review.firstround.com/podcast/inside-clays-unconventional-path-to-1-25b/), [동일 인터뷰 기사](https://review.firstround.com/the-gtm-inflection-points-that-powered-clay-to-a-1b-valuation/), [본인 reverse demo 글](https://www.linkedin.com/posts/vaanand_heres-how-clay-used-reverse-demos-to-find-activity-7429904039900823552-ljrx). 인터뷰 회고이며 캘린더/CRM 실측이 아니다. 당시 Clay에는 작동 제품·개발팀·기존 유료 사용자가 있었다.
 
