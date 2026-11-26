@@ -1,13 +1,9 @@
-# Building in sports
-
 | Field | Technology |
 | --- | --- |
 | Athlete rehab and return to training | Wearables, measurement tools, APIs, AI agents |
 | Motion data collection and supply | Video, sensors, computer vision, physical AI |
 | Game analysis for sports fans | Game footage, player stats, AI agents |
 | Sleep and jet lag | Wearable sleep data, scheduling data, APIs |
-
-## What I'm building
 
 **APIs**
 
