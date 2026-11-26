@@ -1,10 +1,6 @@
-# What I want to get better at
+# Working backward from eight calls a day
 
-I want to get better at listening to people and seeing firsthand how they work.
-
-Varun Anand, a co-founder of Clay, recalls doing about eight reverse demos a day. I use that as a benchmark for my go-to-market work.
-
-## Working backward from eight calls a day
+For my go-to-market work, I use Clay co-founder Varun Anand's account of doing about eight reverse demos a day as a benchmark.
 
 | Stage | Varun at Clay |
 | --- | --- |
