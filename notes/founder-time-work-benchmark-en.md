@@ -1,24 +1,18 @@
-# How I want to spend my time
+# What I want to get better at
 
-> Seokhee Lee · October 29, 2026 · Updated November 2, 2026
+I want to get better at listening to people and seeing firsthand how they work.
 
-Clay co-founder Varun Anand recalled doing about eight reverse demos a day. A customer would share their screen and work through a real task in Clay while he watched. The aim was to solve one problem in about 30 minutes. I'm using his account to think through what I should do myself at DLY and what I can hand off to agents.
+Varun Anand, a co-founder of Clay, recalls doing about eight reverse demos a day. I use that as a benchmark for my go-to-market work.
 
 ## Working backward from eight calls a day
 
-| Stage | Varun at Clay | My approach at DLY |
-| --- | --- | --- |
-| Finding people | He searched three to four years of conversations in Modern Sales Pros for terms like enrichment, data, and outbound. He emailed 30 people who had something specific to say about the work. He recalled that most agreed to talk. | I'll have agents find people who have described real return-to-play work. I'll check what they've said, how to reach them, and whether we've spoken before. I'll send the email myself. |
-| Finding more places to look | Responses from cold email agencies led him to more sales and marketing groups on Slack and WhatsApp. | I'll spend more time in communities where people are willing to talk about how they work. |
-| Getting people onto calls | He picked people from Clay's waitlist and asked them to bring a problem and data to work with. Customers also shared their own examples, and the team wrote about work they had done with customers. | I'll build up examples of problems we've helped solve. When there's something useful to share, I'll see whether it brings more practitioners into the conversation. |
-| What happens on the call | Customers shared their screens and used Clay themselves. If someone came without a task, he helped them pick one and watched where they got stuck. | For now I ask people to walk me through a real return-to-play decision: what they looked at, who was involved, and what took extra work. If we try a task together, we'll agree on scope and data access first. |
-| What happens afterward | He sent usability issues, confusing copy, and bugs to engineers. Some fixes went out the same day. Before ending the call, he made sure customers could reach him on Slack. | I'll decide what to investigate or change, then give agents the workflow, what I observed, the workaround, and how we'll check a change. I'll ask which channel works for follow-up. While agents work, I can keep talking to practitioners and review what comes back. |
-
-## What this means for my week
-
-Eight half-hour calls take four hours before research, scheduling, and follow-up. Anand was looking back on a period when Clay already had a working product, engineers, and paying customers. His account gives me a reference point for the workload. It leaves the mix of calls and the time spent preparing for them open.
-
-I'll keep a mix of conversations with new and existing practitioners and partners. I'll track how many outreach messages lead to bookings, how many booked calls happen, and how much time I spend finding people and following up. At a 25% booking rate and an 80% show rate, 20 new calls would take 100 people contacted. That's an example to help plan the work. I'll adjust the numbers once I have my own.
+| Stage | Varun at Clay |
+| --- | --- |
+| Eight calls a day | Anand recalled doing about eight reverse demos a day. The goal was to solve one real customer problem in 30 minutes. |
+| Finding people and reaching out | He looked through Modern Sales Pros for conversations about data enrichment and outbound sales, then emailed 30 people who had described how they did the work. |
+| Choosing whom to call | He picked people from Clay's waitlist and asked them to bring a problem they wanted to solve and the data they would use. |
+| Running the reverse demo | Customers shared their screens and used Clay themselves. He watched to see where they got stuck. |
+| Handoff and follow-up | He passed the issues he found to engineers and kept in touch with customers on Slack. |
 
 ## Sources
 
