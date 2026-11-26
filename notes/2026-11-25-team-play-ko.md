@@ -1,5 +1,7 @@
 # 제가 선호하는 팀 플레이
 
-- **안드레 이궈달라** · 까다로운 상대를 수비하고, 공격에서는 패스로 동료에게 기회를 만들어주는 모습이 좋습니다.
-- **알렉스 카루소** · 수비에서 동료를 돕고, 공이 없을 때도 팀에 필요한 움직임을 하는 모습에 눈이 갑니다.
-- **마누 지노빌리** · 팀이 필요로 하는 역할을 맡으면서도, 돌파와 패스로 동료에게 기회를 만들어주는 방식이 좋습니다.
+| 선수 | 하이라이트 |
+| --- | --- |
+| 안드레 이궈달라 | [YouTube](https://www.youtube.com/watch?v=pbG7_KpZSKU) |
+| 알렉스 카루소 | [YouTube](https://www.youtube.com/watch?v=ZHNRJj-NKfg) |
+| 마누 지노빌리 | [YouTube](https://www.youtube.com/watch?v=AJUhzQEPCvE) |
